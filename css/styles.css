@@ -1,0 +1,127 @@
+body {
+	background-image: url("../images/backgrounds/blackLinen.png");
+	font-size: 13px;
+}
+
+#headerTopAreaGraphic{
+	background-image: url("../images/backgrounds/top_words.png");
+	background-position: top center;
+	background-repeat:no-repeat;
+	height:80px;
+	text-indent: -9999px;
+	z-index: -1;
+	width:992px;
+	margin:0 auto;
+	margin-left:-24px;
+	
+}
+#headerBottomAreaGraphic{
+	background-image: url("../images/backgrounds/bottom_words.png");
+	background-position: bottom center;
+	background-repeat:no-repeat;
+	height:80px;
+	text-indent: -9999px;
+	z-index: -1;
+	width:992px;
+	margin:0 auto;
+	width:1012px;
+	height:108px;
+	margin-left:-24px;
+	margin-bottom: -35px;
+	
+}
+
+#headerBar{
+	width: 100%;
+	height: 160px;
+	background-color:#161616;
+	
+	-moz-box-shadow:0px 0px 15px #000000;
+-webkit-box-shadow:0px 0px 15px #000000;
+box-shadow:0px 0px 15px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+	  /*box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -webkit-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);*/
+}
+#headerBar h1{
+	margin-top:30px;
+	color:#FFF;
+	background-image: url("../images/logos/AFTDLogoAndWordmark.png");
+	background-repeat:no-repeat;
+	height:93px;
+	width: 374px;
+	text-indent: -9999px;
+}
+
+#mainNavigation{
+	padding-top:65px;
+}
+#mainNavigationList li{
+	display: inline;
+	margin-left: 70px;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	/*float: left;*/
+}
+#mainNavigationList li a {
+	text-decoration: none;
+	color:#FFF;
+}
+
+div#wordFeaturette{
+	height:130px;
+	background-image: url("../images/backgrounds/featuretteBlackTransBG35.png");
+	padding-top:20px;
+}
+
+div#wordFeaturette p{
+	font-family: 'TitilliumText22LLight';
+	color: #FFF;
+	font-size: 22px;
+	text-align:justify;
+	text-justify: distribute-all-lines;
+}
+
+div#sliderFeaturette{
+	height: 400px;
+	width:100%;
+	background-image: url("../images/backgrounds/blackPaper.png");
+	margin-top: 20px;
+	-moz-box-shadow:0px 0px 12px #000000;
+-webkit-box-shadow:0px 0px 12px #000000;
+box-shadow:0px 0px 12px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
+
+}
+
+#leftSpout{
+	position: absolute;
+	width: 62px;
+	height: 80px;
+	margin-left: -27px;
+}
+#rightSpout{
+	width: 62px;
+	height: 80px;
+	float: right;
+	margin-right: -27px;
+}
+
+.alpha{margin-left: 0 !important;}
+.omega{margin-right: 0 !important;}
+
+.blue1{color: #38BFF2}
+.pink{color:#EB3847}
+.green1{color:#96B21E}
+.orange1{color:#F8B32B}
+.orange2{color:#FF6627}
+.yellow{color:#F9F800}
+.red{color:#B81319}
+.blue2{color:#0771B1}
+.purple{color:#8346FF}
+.green2{color:#7FAD06}
+
+
