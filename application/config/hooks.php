@@ -9,7 +9,26 @@
 |	http://codeigniter.com/user_guide/general/hooks.html
 |
 */
+$hook['post_controller_constructor'][] = array(
+                                'class'    => 'Template',
+                                'function' => 'header',
+                                'filename' => 'template.php',
+                                'filepath' => 'hooks'
+                                );
 
+$hook['post_controller_constructor'][] = array(
+                                'class'    => 'Template',
+                                'function' => 'nav',
+                                'filename' => 'template.php',
+                                'filepath' => 'hooks'
+                                );
+								
+$hook['post_controller'] = array(
+                                'class'    => 'Template',
+                                'function' => 'footer',
+                                'filename' => 'template.php',
+                                'filepath' => 'hooks'
+                                );
 
 
 /* End of file hooks.php */
