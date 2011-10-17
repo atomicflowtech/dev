@@ -1,2 +1,1 @@
-
-				<div id="sliderFeaturette"></div>
+<div id="sliderFeaturette"></div>

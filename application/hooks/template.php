@@ -6,15 +6,15 @@ class Template{
     }
 	
 	function header() {
-		$this->CI->load->view('header_view');
+		$this->CI->load->view('template/header_view');
 	}
 	
 	function nav() {
-		$this->CI->load->view('nav_view');
+		$this->CI->load->view('template/nav_view');
 	}
 	
 	function footer() {
-		$this->CI->load->view('footer_view');
+		$this->CI->load->view('template/footer_view');
 	}
 }
 ?>
