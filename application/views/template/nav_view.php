@@ -5,7 +5,7 @@
 				
 				<div id="headerBar">
 					<div id="headerBarContent" class="container_16">
-						<a href="<? echo site_url(); ?>"><h1 class="grid_5 suffix_1">AtomicFlow</h1></a>
+						<a href="<?php echo base_url(); ?>"><h1 class="grid_5 suffix_1">AtomicFlow</h1></a>
 						<nav id="mainNavigation">
 							<ul id="mainNavigationList">
 								<li class="alpha"><a href="<?php echo site_url('about');?>">About</a></li>
