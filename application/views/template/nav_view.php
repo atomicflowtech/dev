@@ -8,16 +8,16 @@
 						<a href="<? echo site_url(); ?>"><h1 class="grid_5 suffix_1">AtomicFlow</h1></a>
 						<nav id="mainNavigation">
 							<ul id="mainNavigationList">
-								<li class="alpha"><a href="<?=site_url('about')?>">About</a></li>
-								<li><a href="<?=site_url('skills')?>">Skills</a></li>
-								<li><a href="<?=site_url('work')?>">Work</a></li>
-								<li><a href="<?=site_url('contact')?>">Contact</a></li>
+								<li class="alpha"><a href="<?php echo site_url('about');?>">About</a></li>
+								<li><a href="<?php echo site_url('skills');?>">Skills</a></li>
+								<li><a href="<?php echo site_url('work');?>">Work</a></li>
+								<li><a href="<?php echo site_url('contact');?>">Contact</a></li>
 							</ul> <!-- end mainNavigationList -->
 						</nav> <!-- end mainNavigation -->
 					</div> <!-- end headerBarContent -->		
 				</div> <!-- end headerBar -->
 				<div id="headerBottomArea"class="container_16">
-					<img id="leftSpout" src="<?=base_url()?>images/backgrounds/leftSpout.png" alt="" /><img id="rightSpout" src="<?=base_url()?>images/backgrounds/rightSpout.png" alt="" />
+					<img id="leftSpout" src="<?php echo base_url();?>images/backgrounds/leftSpout.png" alt="" /><img id="rightSpout" src="<?php echo base_url();?>images/backgrounds/rightSpout.png" alt="" />
 					<h2 id="headerBottomAreaGraphic" class="">Creative. Intelligent. Quick.</h2>
 				</div>
 				
