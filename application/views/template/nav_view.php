@@ -8,10 +8,10 @@
 						<a href="<? echo site_url(); ?>"><h1 class="grid_5 suffix_1">AtomicFlow</h1></a>
 						<nav id="mainNavigation">
 							<ul id="mainNavigationList">
-								<li class="alpha"><a href="/about">About</a></li>
-								<li><a href="/skills">Skills</a></li>
-								<li><a href="/work">Work</a></li>
-								<li><a href="/contact">Contact</a></li>
+								<li class="alpha"><a href="<?=site_url('about')?>">About</a></li>
+								<li><a href="<?=site_url('skills')?>">Skills</a></li>
+								<li><a href="<?=site_url('work')?>">Work</a></li>
+								<li><a href="<?=site_url('contact')?>">Contact</a></li>
 							</ul> <!-- end mainNavigationList -->
 						</nav> <!-- end mainNavigation -->
 					</div> <!-- end headerBarContent -->		
