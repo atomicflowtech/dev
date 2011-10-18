@@ -9,11 +9,11 @@
 		<meta name="description" content="{page_description}" />
 		<meta name="author" content="Brandon John-Freso and Lucas Paulger" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="css/fontfaces.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="css/grid/reset.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/fontfaces.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/grid/reset.css" media="all" />
 		
 		
-		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="css/grid/960.css" />
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/grid/960.css" />
 	</head>
 	<body>

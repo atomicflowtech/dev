@@ -17,7 +17,7 @@
 					</div> <!-- end headerBarContent -->		
 				</div> <!-- end headerBar -->
 				<div id="headerBottomArea"class="container_16">
-					<img id="leftSpout" src="images/backgrounds/leftSpout.png" alt="" /><img id="rightSpout" src="images/backgrounds/rightSpout.png" alt="" />
+					<img id="leftSpout" src="<?=base_url()?>images/backgrounds/leftSpout.png" alt="" /><img id="rightSpout" src="<?=base_url()?>images/backgrounds/rightSpout.png" alt="" />
 					<h2 id="headerBottomAreaGraphic" class="">Creative. Intelligent. Quick.</h2>
 				</div>
 				
