@@ -5,8 +5,8 @@
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>AtomicFlow Creative Tech Dev Site</title>
-		<meta name="description" content="The official Development Site of AtomicFlow" />
+		<title>{page_title}</title>
+		<meta name="description" content="{page_description}" />
 		<meta name="author" content="Brandon John-Freso and Lucas Paulger" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="css/fontfaces.css" media="all" />
