@@ -1,4 +1,4 @@
-<?
+<?php
 class Template{
 	var $CI;
 	function Template() {
