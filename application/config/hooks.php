@@ -11,14 +11,14 @@
 */
 $hook['post_controller_constructor'][] = array(
                                 'class'    => 'Template',
-                                'function' => 'header',
+                                'function' => 'head',
                                 'filename' => 'template.php',
                                 'filepath' => 'hooks'
                                 );
 
 $hook['post_controller_constructor'][] = array(
                                 'class'    => 'Template',
-                                'function' => 'nav',
+                                'function' => 'header',
                                 'filename' => 'template.php',
                                 'filepath' => 'hooks'
                                 );
