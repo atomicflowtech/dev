@@ -26,6 +26,10 @@ body {
   margin-right: auto;
   width: 960px;
 }
+.container_full{
+/*	THIS IS A CSS CLASS ADDED BY BRANDON TO ALLOW FOR A FULL SCREEN WIDTH CONTAINER*/
+	width: 100%;
+}
 
 /* `Grid >> Global
 ----------------------------------------------------------------------------------------------------*/
