@@ -1,5 +1,5 @@
 <section>
-	<div id="sliderFeaturette">
+	<div id="mainSlider">
 		
 	</div>
 	

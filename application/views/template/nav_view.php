@@ -18,7 +18,7 @@
 					</div>
 				<div id="headerTopAreaFullContainer"class="container_full">
 					<div id="headerTopAreaSlider" class="container_16">
-					<h2 id="headerTopAreaSliderWords">WHY THE F*CK WONT THIS WORK!?!?
+					<h2 id="headerTopAreaSliderWords">BODY MASSAGE MACHINE BOOOY!!!!
 						<!-- <span>HTML</span>
 						<span>CSS</span>
 						<span>DESIGN</span>

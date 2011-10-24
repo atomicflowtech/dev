@@ -87,7 +87,7 @@ box-shadow: 0px 0px 15px #000;
 	background-color:#161616;
 	background: url("../images/backgrounds/navBG.jpg") repeat top center;
 	z-index:1;
-	position:absolute;
+	position:relative;
 	
 	-moz-box-shadow:0px 0px 10px #000000;
 -webkit-box-shadow:0px 0px 10px #000000;
@@ -127,10 +127,10 @@ box-shadow:0px 0px 10px #000000;
 }
 
 
-div#sliderFeaturette{
+div#mainSlider{
 	height: 350px;
 	width:100%;
-	background-image: url("../images/backgrounds/blackPaper.png");
+	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;
 	-moz-box-shadow:0px 0px 12px #000000;
 	-webkit-box-shadow:0px 0px 12px #000000;
 	box-shadow:0px 0px 12px #000000;
