@@ -1,42 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>{page_title}</title>
-		<meta name="description" content="{page_description}" />
-		<meta name="author" content="Brandon John-Freso and Lucas Paulger" />
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/fontfaces.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/reset.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/default.css" media="all" />
-		
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/960.css" />
-<<<<<<< HEAD
-		<script type="text/javascript">
-		//Script Brandon added to override default styles in the 960 Gridder overlay
-var gOverride = {
-  urlBase: 'http://gridder.andreehansson.se/releases/latest/',
-  gColor: '#EEEEEE',
-  gColumns: 16,
-  gOpacity: 0.35,
-  gWidth: 10,
-  pColor: '#C0C0C0',
-  pHeight: 15,
-  pOffset: 0,
-  pOpacity: 0.55,
-  center: true,
-  gEnabled: true,
-  pEnabled: false,//modified from true
-  setupEnabled: true,
-  fixFlash: true,
-  size: 960
-};
-</script>
-=======
->>>>>>> 8fe7fc25783d0127509c180e0e1fd3ff7a90a089
-	</head>
 	<body>
+<header>
+<<<<<<< HEAD
+				<div id="topLinksFullContainer" class="container_full">
+				<div id="topLinksContainer" class="container_16">
+				
+					<ul class="socialLinksList grid_6 suffix_3">
+						<li ><a href="plus.google.com">Google+</a></li>
+=======
+				<div id="topLinksContainer" class="container_16">
+					<ul class="socialLinksList">
+						<li><a href="plus.google.com">Google+</a></li>
+>>>>>>> 8fe7fc25783d0127509c180e0e1fd3ff7a90a089
+						<li><a href="facebook.com">Facebook</a></li>
+						<li><a href="twitter.com">Twitter</a></li>
+						<li><a href="<?php echo site_url('rss');?>">RSS</a></li>
+					</ul>
+<<<<<<< HEAD
+					<ul class="contactLinksList grid_7">
+						<li>Tel:(202)713.2526</li>
+						<li>Email: <a href="mailto:info@atomicflowtech.com?subject=feedback">Info@AtomicFlowTech.com</a></li>
+					</ul>
+				</div>
+					</div>
+				<div id="headerTopAreaFullContainer"class="container_full">
+					<div id="headerTopAreaSlider" class="container_16">
+					<h2 id="headerTopAreaSliderWords">WHY THE F*CK WONT THIS WORK!?!?
+						<!-- <span>HTML</span>
+						<span>CSS</span>
+						<span>DESIGN</span>
+						<span>MARKETING</span> -->
+						</h2>
+					</div>
+=======
+					<ul class="contactLinksList">
+						<li>Tel:(202)713.2526</li>
+						<li>Email:<a href="mailto:info@atomicflowtech.com?subject=feedback">Info@AtomicFlowTech.com</a></li>
+					</ul>
+				</div>
+				<div id="headerTopArea"class="container_16">
+					<h2 id="headerTopAreaGraphic" class="grid_16">HTML CSS DESIGN MARKETING</h2>
+>>>>>>> 8fe7fc25783d0127509c180e0e1fd3ff7a90a089
+				</div> <!-- end headerTopArea -->
