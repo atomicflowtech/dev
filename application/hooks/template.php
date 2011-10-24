@@ -5,17 +5,17 @@ class Template{
         $this->CI =& get_instance();
     }
 	
-	function head() {
+	function header() {
 		$this->CI->load->library('parser');
 		$data = array(
             'page_title' => 'AtomicFlow Creative Tech Dev Site',
-            'page_description' => 'The Official Development Site of AtomicFlow'
+            'page_description' => 'The official Development Site of AtomicFlow'
             );
-		$this->CI->parser->parse('template/head_view', $data);
+		$this->CI->parser->parse('template/header_view', $data);
 	}
 	
-	function header() {
-		$this->CI->load->view('template/header_view');
+	function nav() {
+		$this->CI->load->view('template/nav_view');
 	}
 	
 	function footer() {
