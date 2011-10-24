@@ -15,6 +15,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/960.css" />
+<<<<<<< HEAD
 		<script type="text/javascript">
 		//Script Brandon added to override default styles in the 960 Gridder overlay
 var gOverride = {
@@ -35,5 +36,7 @@ var gOverride = {
   size: 960
 };
 </script>
+=======
+>>>>>>> 8fe7fc25783d0127509c180e0e1fd3ff7a90a089
 	</head>
 	<body>
