@@ -16,6 +16,19 @@
 }
 
 /**********************************************/
+/* SOCIAL LINKS                               */
+/**********************************************/
+#contactLinks .socialLinks li{
+	float:left;
+	padding:10px;
+}
+
+#contactLinks .contactLinks li{
+	float:right;
+	padding:10px;
+}
+
+/**********************************************/
 /*    NAV BAR                                 */
 /**********************************************/
 #nav  li{

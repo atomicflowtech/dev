@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/fontfaces.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/reset.css" media="all" />
-		
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/default.css" media="all" />
 		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/960.css" />
