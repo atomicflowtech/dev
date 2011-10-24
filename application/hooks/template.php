@@ -9,7 +9,7 @@ class Template{
 		$this->CI->load->library('parser');
 		$data = array(
             'page_title' => 'AtomicFlow Creative Tech Dev Site',
-            'page_description' => 'The official Development Site of AtomicFlow'
+            'page_description' => 'The Official Development Site of AtomicFlow'
             );
 		$this->CI->parser->parse('template/header_view', $data);
 	}
