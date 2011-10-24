@@ -11,11 +11,11 @@ class Template{
             'page_title' => 'AtomicFlow Creative Tech Dev Site',
             'page_description' => 'The Official Development Site of AtomicFlow'
             );
-		$this->CI->parser->parse('template/header_view', $data);
+		$this->CI->parser->parse('template/head_view', $data);
 	}
 	
 	function header() {
-		$this->CI->load->view('template/nav_view');
+		$this->CI->load->view('template/header_view');
 	}
 	
 	function footer() {
