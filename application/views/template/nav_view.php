@@ -1,14 +1,14 @@
 			<header>
-				<div id="contactLinks" class="container_16">
-					<ul class="socialLinks">
+				<div id="topLinksContainer" class="container_16">
+					<ul class="socialLinksList">
 						<li><a href="plus.google.com">Google+</a></li>
 						<li><a href="facebook.com">Facebook</a></li>
 						<li><a href="twitter.com">Twitter</a></li>
 						<li><a href="<?php echo site_url('rss');?>">RSS</a></li>
 					</ul>
-					<ul class="contactLinks">
-						<li>Email:<a href="mailto:info@atomicflowtech.com?subject=feedback">Info@AtomicFlowTech.com</a></li>
+					<ul class="contactLinksList">
 						<li>Tel:(202)713.2526</li>
+						<li>Email:<a href="mailto:info@atomicflowtech.com?subject=feedback">Info@AtomicFlowTech.com</a></li>
 					</ul>
 				</div>
 				<div id="headerTopArea"class="container_16">
@@ -29,17 +29,6 @@
 						</nav> <!-- end mainNavigation -->
 					</div> <!-- end headerBarContent -->		
 				</div> <!-- end headerBar -->
-				<div id="headerBottomArea"class="container_16">
-					<img id="leftSpout" src="<?php echo base_url();?>images/backgrounds/leftSpout.png" alt="" /><img id="rightSpout" src="<?php echo base_url();?>images/backgrounds/rightSpout.png" alt="" />
-					<h2 id="headerBottomAreaGraphic" class="">Creative. Intelligent. Quick.</h2>
-				</div>
-				
-				
 			</header>
 			<section class="mainContent container_16">
-				<div id="wordFeaturette">
-					<p class="grid_16">
-						AtomicFlow is an independent <span class="blue1">digital</span> design firm based in Washington, DC. We work with clients to create <span class="pink">interactive experiences</span> via <span class="green1">websites</span> and <span class="orange1">applications</span> that engage customers. We are <span class="orange2">perfectionists</span> in every sense of the word, <span class="yellow">commited</span> to ensuring our <span class="red">dedication</span> shows in every <span class="blue2">detail</span> of our work. If you can <span class="purple">think</span> it, we can <span class="green2">build</span> it.
-					</p>
-				</div> <!-- end wordFeaturette -->
 				

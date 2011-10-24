@@ -18,12 +18,12 @@
 /**********************************************/
 /* SOCIAL LINKS                               */
 /**********************************************/
-#contactLinks .socialLinks li{
+#topLinksContainer .socialLinksList li{
 	float:left;
 	padding:10px;
 }
 
-#contactLinks .contactLinks li{
+#topLinksContainer .contactLinksList li{
 	float:right;
 	padding:10px;
 }
