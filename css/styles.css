@@ -3,187 +3,177 @@ body {
 	font-size: 13px;
 }
 
-#headerTopAreaGraphic {
+#headerTopAreaGraphic{
 	background-image: url("../images/backgrounds/top_words.png");
-	background-position: center top;
-	background-repeat: no-repeat;
-	height: 80px;
+	background-position: top center;
+	background-repeat:no-repeat;
+	height:80px;
 	text-indent: -9999px;
 	z-index: -1;
-	width: 992px;
-	margin: 0 auto 0 -24px;
+	width:992px;
+	margin:0 auto;
+	margin-left:-24px;
+	
 }
 
-#headerBar {
+#headerBar{
 	width: 100%;
 	height: 160px;
-	background-color: #161616;
-	box-shadow: 0 0 15px #000000;
-}
+	background-color:#161616;
+	
+	-moz-box-shadow:0px 0px 15px #000000;
+-webkit-box-shadow:0px 0px 15px #000000;
+box-shadow:0px 0px 15px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
 
-#headerBar h1 {
-	margin-top: 30px;
-	color: #FFFFFF;
+	  /*box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -webkit-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);*/
+}
+#headerBar h1{
+	margin-top:30px;
+	color:#FFF;
 	background-image: url("../images/logos/AFTDLogoAndWordmark.png");
-	background-repeat: no-repeat;
-	height: 93px;
+	background-repeat:no-repeat;
+	height:93px;
 	width: 374px;
 	text-indent: -9999px;
 }
 
-#mainNavigation {
-	padding-top: 65px;
+#mainNavigation{
+	padding-top:65px;
 }
-
-#mainNavigationList li {
+#mainNavigationList li{
 	display: inline;
 	margin-left: 50px;
 	font-size: 15px;
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	/*float: left;*/
 }
-
 #mainNavigationList li a {
 	text-decoration: none;
-	color: #C62B2B;
+	color:#FFF;
 }
 
-div#sliderFeaturette {
+
+div#sliderFeaturette{
 	height: 350px;
-	width: 100%;
+	width:100%;
 	background-image: url("../images/backgrounds/blackPaper.png");
-	box-shadow: 0 0 12px #000000;
+	-moz-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
+
 }
 
-#topLinksContainer .socialLinksList li {
+/**********************************************/
+/* SOCIAL LINKS                               */
+/**********************************************/
+#topLinksContainer .socialLinksList li{
 	display: inline;
 	margin-left: 50px;
 	font-size: 15px;
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
-	float: left;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:left;
 }
 
-#topLinksContainer .contactLinksList li {
+#topLinksContainer .contactLinksList li{
 	display: inline;
 	margin-left: 50px;
 	font-size: 15px;
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
-	float: right;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:right;
 }
 
-#quickLinkSkillsContainer {
-	width: 100%;
-	background-color: #161616;
-	box-shadow: 0 0 15px #000000;
+/**********************************************/
+/* QUICK LINKS                                */
+/**********************************************/
+#quickLinkSkillsContainer{
+	width:100%;
+	background-color:#161616;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#quickLinkSkillsContainer li {
+#quickLinkSkillsContainer li{
 	display: inline;
 	margin-left: 50px;
 	font-size: 15px;
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
 }
-
-#pageDescriptionContainer {
+#pageDescriptionContainer{
 	height: 200px;
-	width: 100%;
+	width:100%;
 	background-image: url("../images/backgrounds/blackPaper.png");
-	box-shadow: 0 0 12px #000000;
+	-moz-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
+}
+#tagLineContainer{
+	font-family: "SansationRegular", sans-serif;
+	float:left;
 }
 
-#tagLineContainer {
-	font-family: "SansationRegular",sans-serif;
-	float: left;
+#taglineDescriptionContainer{
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:right;
 }
 
-#taglineDescriptionContainer {
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
-	float: right;
-}
-
-#mainContentContainer {
+#mainContentContainer{
 	height: 400px;
-	background-color: #161616;
+	background-color:#161616;
 }
 
-footer {
-	width: 100%;
-	background-color: #161616;
-	box-shadow: 0 0 15px #000000;
+footer{
+	width:100%;
+	background-color:#161616;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
 }
 
-#footerContainer {
-	height: 200px;
+#footerContainer{
+	height:200px;
 }
 
-#footerContainer li {
+#footerContainer li{
 	display: inline;
 	font-size: 15px;
-	font-family: "SansationRegular",sans-serif;
-	letter-spacing: 0.1em;
-	float: left;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:left;
 }
 
-#footerContainer li a {
+#footerContainer li a{
 	text-decoration: none;
-	color: #FFFFFF;
+	color:#FFF;
 }
 
-#footerDescriptionText {
-	float: right;
+#footerDescriptionText{
+	float:right;
 }
 
-.alpha {
-	margin-left: 0 !important;
-}
+.alpha{margin-left: 0 !important;}
+.omega{margin-right: 0 !important;}
 
-.omega {
-	margin-right: 0 !important;
-}
+.blue1{color: #38BFF2}
+.pink{color:#EB3847}
+.green1{color:#96B21E}
+.orange1{color:#F8B32B}
+.orange2{color:#FF6627}
+.yellow{color:#F9F800}
+.red{color:#B81319}
+.blue2{color:#0771B1}
+.purple{color:#8346FF}
+.green2{color:#7FAD06}
 
-.blue1 {
-	color: #38BFF2;
-}
-
-.pink {
-	color: #EB3847;
-}
-
-.green1 {
-	color: #96B21E;
-}
-
-.orange1 {
-	color: #F8B32B;
-}
-
-.orange2 {
-	color: #FF6627;
-}
-
-.yellow {
-	color: #F9F800;
-}
-
-.red {
-	color: #B81319;
-}
-
-.blue2 {
-	color: #0771B1;
-}
-
-.purple {
-	color: #8346FF;
-}
-
-.green2 {
-	color: #7FAD06;
-}
 
