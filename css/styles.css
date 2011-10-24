@@ -58,17 +58,109 @@ box-shadow:0px 0px 15px #000000;
 
 
 div#sliderFeaturette{
-	height: 400px;
+	height: 350px;
 	width:100%;
 	background-image: url("../images/backgrounds/blackPaper.png");
-	margin-top: 20px;
 	-moz-box-shadow:0px 0px 12px #000000;
--webkit-box-shadow:0px 0px 12px #000000;
-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
 /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
 
 }
 
+/**********************************************/
+/* SOCIAL LINKS                               */
+/**********************************************/
+#topLinksContainer .socialLinksList li{
+	display: inline;
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:left;
+}
+
+#topLinksContainer .contactLinksList li{
+	display: inline;
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:right;
+}
+
+/**********************************************/
+/* QUICK LINKS                                */
+/**********************************************/
+#quickLinkSkillsContainer{
+	width:100%;
+	background-color:#161616;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#quickLinkSkillsContainer li{
+	display: inline;
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+}
+#pageDescriptionContainer{
+	height: 200px;
+	width:100%;
+	background-image: url("../images/backgrounds/blackPaper.png");
+	-moz-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
+}
+#tagLineContainer{
+	font-family: "SansationRegular", sans-serif;
+	float:left;
+}
+
+#taglineDescriptionContainer{
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:right;
+}
+
+#mainContentContainer{
+	height: 400px;
+	background-color:#161616;
+}
+
+footer{
+	width:100%;
+	background-color:#161616;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
+}
+
+#footerContainer{
+	height:200px;
+}
+
+#footerContainer li{
+	display: inline;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:left;
+}
+
+#footerContainer li a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+#footerDescriptionText{
+	float:right;
+}
 
 .alpha{margin-left: 0 !important;}
 .omega{margin-right: 0 !important;}

@@ -30,5 +30,4 @@
 					</div> <!-- end headerBarContent -->		
 				</div> <!-- end headerBar -->
 			</header>
-			<section class="mainContent container_16">
 				
