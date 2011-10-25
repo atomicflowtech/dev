@@ -15,6 +15,11 @@
 		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/960.css" />
+		
+		<!-- ANYTHING SLIDER -->
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/AnythingSlider/anythingslider.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/AnythingSlider/anythingslider-ie.css" />
+		
 		<script type="text/javascript">
 		//Script Brandon added to override default styles in the 960 Gridder overlay
 var gOverride = {
