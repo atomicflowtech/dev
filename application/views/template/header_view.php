@@ -4,10 +4,10 @@
 				
 					<ul class="socialLinksList grid_6 suffix_2">
 						
-						<li><a href="plus.google.com">Google+</a></li>
+						<li><a href="http://plus.google.com">Google+</a></li>
 
-						<li><a href="facebook.com">Facebook</a></li>
-						<li><a href="twitter.com">Twitter</a></li>
+						<li><a href="http://facebook.com">Facebook</a></li>
+						<li><a href="http://twitter.com">Twitter</a></li>
 						<li><a href="<?php echo site_url('rss');?>">RSS</a></li>
 					</ul>
 					<ul class="contactLinksList grid_8">
