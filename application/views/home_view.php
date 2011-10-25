@@ -3,6 +3,7 @@
 		
 	</div>
 	
+	<div id="quickLinkSkillsFullContainer" class="container_full">
 	<div id="quickLinkSkillsContainer" class="container_16">
 		<ul class="quickLinkSkillsList grid_16">
 			<li>+Consultancy</li>
@@ -11,6 +12,9 @@
 			<li>+Optimization(SEO)</li>
 		</ul>
 	</div>
+	</div>
+	
+	
 	<div id="pageDescriptionContainer">
 		<div class="container_16">
 			<div id="tagLineContainer">

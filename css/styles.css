@@ -151,6 +151,15 @@ div#mainSlider{
 /**********************************************/
 /* QUICK LINKS                                */
 /**********************************************/
+#quickLinkSkillsFullContainer{
+	border-bottom-style: solid;
+	border-top-style:solid;
+	border-color: #F9810B;
+	border-width: 1px;
+	background-color: #000000;
+	height: 70px;``
+}
+
 #quickLinkSkillsContainer{
 	/*width:100%;
 	background-color:#161616;
@@ -162,6 +171,7 @@ div#mainSlider{
 }
 
 #quickLinkSkillsContainer .quickLinkSkillsList li{
+	line-height:70px;
 	display: inline;
 	margin-right: 20px;
 	font-size: 37px;
