@@ -152,22 +152,25 @@ div#mainSlider{
 /* QUICK LINKS                                */
 /**********************************************/
 #quickLinkSkillsContainer{
-	width:100%;
+	/*width:100%;
 	background-color:#161616;
 	-moz-box-shadow:0px 0px 15px #000000;
 	-webkit-box-shadow:0px 0px 15px #000000;
 	box-shadow:0px 0px 15px #000000;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 20px;*/
 }
 
-#quickLinkSkillsContainer li{
+#quickLinkSkillsContainer .quickLinkSkillsList li{
 	display: inline;
-	margin-left: 50px;
-	font-size: 15px;
-	font-family: "SansationRegular", sans-serif;
-	letter-spacing: .1em;
+	margin-right: 20px;
+	font-size: 37px;
+	font-family: "LeagueGothicRegular", sans-serif;
+	text-transform:uppercase;
+	color:#FFFFFF;
+/*	letter-spacing: .1em;*/
 }
+
 #pageDescriptionContainer{
 	height: 200px;
 	width:100%;

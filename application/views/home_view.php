@@ -3,8 +3,8 @@
 		
 	</div>
 	
-	<div id="quickLinkSkillsContainer">
-		<ul class="container_16">
+	<div id="quickLinkSkillsContainer" class="container_16">
+		<ul class="quickLinkSkillsList grid_16">
 			<li>+Consultancy</li>
 			<li>+Design&Development</li>
 			<li>+Marketing</li>
