@@ -18,11 +18,6 @@
 					</div>
 				<div id="headerTopAreaFullContainer"class="container_full">
 					<div id="headerTopAreaSlider" class="container_16">
-					<h2 id="headerTopAreaSliderWords">BODY MASSAGE MACHINE BOOOY!!!!
-						<!-- <span>HTML</span>
-						<span>CSS</span>
-						<span>DESIGN</span>
-						<span>MARKETING</span> -->
-						</h2>
+					<h2 id="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
 					</div>
 				</div>
