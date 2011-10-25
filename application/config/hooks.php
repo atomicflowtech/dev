@@ -22,6 +22,13 @@ $hook['post_controller_constructor'][] = array(
                                 'filename' => 'template.php',
                                 'filepath' => 'hooks'
                                 );
+								
+$hook['post_controller_constructor'][] = array(
+                                'class'    => 'Template',
+                                'function' => 'mainNav',
+                                'filename' => 'template.php',
+                                'filepath' => 'hooks'
+                                );
 
 $hook['post_controller'] = array(
                                 'class'    => 'Template',
