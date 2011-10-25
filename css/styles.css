@@ -61,7 +61,7 @@ box-shadow: 0px 0px 15px #000;
 	
 }
 
-#headerTopAreaSliderHeading{
+.headerTopAreaSliderHeading{
 	color: #000000;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 88px;
@@ -78,7 +78,7 @@ padding: 0px ;
 text-align: justify ;
 }
 
-#headerTopAreaSliderHeading span {
+.headerTopAreaSliderHeading span {
 	font-size: 1px ;
 	word-spacing: 1000px;
 }

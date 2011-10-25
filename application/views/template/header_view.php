@@ -28,10 +28,10 @@
 	<div id="headerTopAreaFullContainer"class="container_full">
 		<ul id="headerTopAreaSlider" class="container_16">
 			<li>
-				<h2 id="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
+				<h2 class="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
 			</li>
 			<li>
-				<h2 id="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
+				<h2 class="headerTopAreaSliderHeading">WHAT WE DO HERE<span> &nbsp; </span></h2>
 			</li>
 		</ul>
 	</div>
