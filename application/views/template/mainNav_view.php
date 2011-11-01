@@ -1,9 +1,9 @@
 <div id="headerBar">
 	<div id="headerBarContent" class="container_16">
-		<a href="<?php echo base_url();?>"><h1 class="grid_6 suffix_1">AtomicFlow</h1></a>
-		<nav id="mainNavigation">
-			<ul id="mainNavigationList">
-				<li id="homeLink">
+		<a class="grid_7 suffix_2" href="<?php echo base_url();?>"><h1 class="grid_7">AtomicFlow</h1></a>
+		<nav id="mainNavigation" class="grid_7">
+			<ul id="mainNavigationList" >
+				<li id="homeLink" class="alpha">
 					<a href="<?php echo site_url('home');?>">&#43;Home</a>
 				</li>
 				<li id="aboutLink">
@@ -15,7 +15,7 @@
 				<li id="workLink">
 					<a href="<?php echo site_url('work');?>">+Work</a>
 				</li>
-				<li id="contactLink">
+				<li id="contactLink" class="omega">
 					<a href="<?php echo site_url('contact');?>">+Contact</a>
 				</li>
 			</ul>

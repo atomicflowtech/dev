@@ -9,7 +9,7 @@
 			<li>+Consultancy</li>
 			<li>+Design&Development</li>
 			<li>+Marketing</li>
-			<li>+Optimization(SEO)</li>
+			<li class="omega">+Optimization(SEO)</li>
 		</ul>
 	</div>
 	</div>
