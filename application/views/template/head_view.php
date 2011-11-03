@@ -8,7 +8,7 @@
 		<title>{page_title}</title>
 		<meta name="description" content="{page_description}" />
 		<meta name="author" content="Brandon John-Freso and Lucas Paulger" />
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- <meta name="viewport" content="width=device-width; initial-scale=1.0" /> -->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/fontfaces.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/grid/reset.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/default.css" media="all" />

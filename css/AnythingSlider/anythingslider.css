@@ -26,8 +26,8 @@
 /**** Default state (no keyboard focus) ****/
 /* slider window - top & bottom borders, default state */
 div.anythingSlider .anythingWindow {
-	border-top: 3px solid #777;
-	border-bottom: 3px solid #777;
+	/*border-top: 3px solid #777;
+	border-bottom: 3px solid #777;*/
 }
 /* Navigation buttons, default state */
 div.anythingSlider .anythingControls ul a.cur, div.anythingSlider .anythingControls ul a {

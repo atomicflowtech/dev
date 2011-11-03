@@ -2,7 +2,7 @@
 	<div id="headerBarContent" class="container_16">
 		<a class="grid_7 suffix_2" href="<?php echo base_url();?>"><h1 class="grid_7">AtomicFlow</h1></a>
 		<nav id="mainNavigation" class="grid_7">
-			<ul id="mainNavigationList" >
+			<ul id="mainNavigationList" class="lavaLamp" >
 				<li id="homeLink" class="alpha">
 					<a href="<?php echo site_url('home');?>">&#43;Home</a>
 				</li>

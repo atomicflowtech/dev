@@ -32,6 +32,7 @@
 	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.js"></script>
 	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.video.js"></script>
 	<script src="<?php echo base_url();?>js/AnythingSlider/swfobject.js"></script>
+	<script src="<?php echo base_url();?>js/lavalamp/jquery.lavalamp.js"></script>
 	<script>
 		// DOM Ready
 		$(function() {
@@ -49,6 +50,8 @@
 		$("#aboutLink").mouseenter(function() {
 			$('#headerTopAreaSlider').anythingSlider(2);
 		});
+		//Another JQ init for LL
+		$(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700}) });
 
 	</script>
 </footer>
