@@ -39,7 +39,9 @@
 			$('#headerTopAreaSlider').anythingSlider({
 				buildArrows : false,
 				buildNavigation : false,
-				buildStartStop : false
+				buildStartStop : false,
+				easing : "easeOutElastic",
+				// vertical: true,
 			});
 		});
 		// TODO Create function to handle this and move it to a seperate js
