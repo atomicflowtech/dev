@@ -1,6 +1,17 @@
 <section>
-	<div id="mainSlider">
-		
+	<div id="mainSlider" class="container_full" >
+		<div id="mainSliderContentContainer" class="container_16">
+			<div id="mainSliderPicture" class="grid_8">
+				<img width="320px" height="243px" src="<?php echo base_url();?>images/mainSlider/imacedit.png" />
+			</div>
+			<div id="mainSliderCaptionArea" class="grid_8">
+			<div id="mainSliderCaption" >
+				<span class="captionAmpersand">&</span>
+				<p>STUNNING DESIGN <br /> INTELLIGENT CODE</p>
+			</div>
+			<div id="mainSliderSubCaption"><a href="<?php echo site_url('work');?>">Our Work</a> is the full package. </div>
+		</div>
+		</div>
 	</div>
 	
 	<div id="quickLinkSkillsFullContainer" class="container_full">
@@ -15,17 +26,16 @@
 	</div>
 	
 	
-	<div id="pageDescriptionContainer">
-		<div class="container_16">
-			<div id="tagLineContainer">
-				<h1 class="container_8 grid_8">CREATIVE DESIGNERS.</br>
-				INTELLIGENT CODE.</h1>
-			</div>
+	<div id="subHeaderFullContainer" class="container_full">
+		<div id="subHeaderInnerContainer" class="container_16">
+				<h1 id="subHeaderTitle" class="grid_8">CREATIVE DESIGNERS. INTELLIGENT CODE.</h1>
+			
 			<div id="taglineDescriptionContainer" class="grid_8">
 				<p>AtomicFlow is an independent digital design studio based in Washington, DC.
-				We design because we love it, a fact that shows in all of our work. 
-				That's all there is to it. No secrets. No hidden mesthod. Nu buy 1, get 1 free.
-				We do what we love, we just happen to be damn good.</p>
+				Our clients come to us to help them create solutions through technology. We have a knack for bridging the gap between
+				your ideas and a technical reality. Our team of young motivated digital wizkids and creative geniuses will give your company
+				that extra kick it needs to get ahead in today's competitive market.
+				</p>
 			</div>
 		</div>
 	</div>

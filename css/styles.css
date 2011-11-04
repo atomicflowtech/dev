@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/backgrounds/blackLinen.png");
+	background-image: url("../images/backgrounds/creativegridbg.jpg");
 	font-size: 13px;
 }
 /**********************************************/
@@ -157,12 +157,61 @@ box-shadow:0px 0px 10px #000000;
 div#mainSlider{
 	height: 350px;
 	width:100%;
-	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;
+/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
+background:url("../images/backgrounds/creativegridbg.jpg");
 	-moz-box-shadow:0px 0px 12px #000000;
 	-webkit-box-shadow:0px 0px 12px #000000;
 	box-shadow:0px 0px 12px #000000;
 /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
 
+padding-top:40px;
+
+}
+
+#mainSliderCaptionArea{
+	
+	
+	
+}
+
+#mainSliderCaption{
+	height:127px;
+	color:#FFFFFF;
+	font-size:51px;
+	font-family: 'LeagueGothicRegular', arial;
+	line-height: 50px;
+	margin-top:35px;
+	background-color:#D34900;
+	padding-top: 20px;
+	padding-left: 82px;
+	position: relative;
+	z-index: 3;
+}
+#mainSliderCaption p{
+	
+
+}
+.captionAmpersand{
+	color:#817C05;
+	position: absolute;
+	font-size: 120px;
+	z-index: 0;
+	margin-left:-55px;
+	margin-top:25px;
+}
+#mainSliderSubCaption{
+	background-color: #191919;
+	margin-top:10px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20pt;
+	color:#4B5255;
+	padding-left:82px;
+}
+#mainSliderSubCaption a{
+	color:#1FB8F1;
+	
+	
 }
 
 
@@ -200,28 +249,33 @@ div#mainSlider{
 /*	letter-spacing: .1em;*/
 }
 
-#pageDescriptionContainer{
-	height: 200px;
-	width:100%;
+#subHeaderFullContainer{
+	height: 170px;
 	background-image: url("../images/backgrounds/blackPaper.png");
 	-moz-box-shadow:0px 0px 12px #000000;
 	-webkit-box-shadow:0px 0px 12px #000000;
 	box-shadow:0px 0px 12px #000000;
+/*	margin-top:20px;*/
+	padding-top: 20px;
 }
-#tagLineContainer{
-	font-family: "SansationRegular", sans-serif;
-	float:left;
+#subHeaderTitle{
+	background-image: url("../images/headers/creativeDesignersIntelligentCode.png");
+	background-repeat: no-repeat;
+	height: 130px;
+	text-indent: -9999px;
 }
 
 #taglineDescriptionContainer{
-	font-family: "SansationRegular", sans-serif;
+	font-family: 'QuickSandBook', sans-serif;
 	letter-spacing: .1em;
 	float:right;
+	color:#FFFFFF;
+	font-size: 16px;
 }
 
 #mainContentContainer{
 	height: 400px;
-	background-color:#161616;
+	
 }
 
 footer{
@@ -256,7 +310,7 @@ footer{
 .alpha{margin-left: 0 !important;}
 .omega{margin-right: 0 !important;}
 
-.blue1{color: #38BFF2}
+.blue1{color: #1FB8F1}
 .pink{color:#EB3847}
 .green1{color:#96B21E}
 .orange1{color:#F7800B}
