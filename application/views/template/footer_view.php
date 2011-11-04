@@ -44,14 +44,34 @@
 		});
 		// TODO Create function to handle this and move it to a seperate js
 		$("#homeLink").mouseenter(function() {
-			$('#headerTopAreaSlider').anythingSlider(1);
+			$('#headerTopAreaSlider').stop().anythingSlider(1);
 		});
 
 		$("#aboutLink").mouseenter(function() {
-			$('#headerTopAreaSlider').anythingSlider(2);
+			$('#headerTopAreaSlider').stop().anythingSlider(2);
 		});
-		//Another JQ init for LL
-		$(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700}) });
+		$("#skillsLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(3);
+		});
+		$("#workLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(4);
+		});
+		$("#contactLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(5);
+		});
+		
+		$("#googleSocialLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(6);
+		});
+		$("#facebookSocialLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(7);
+		});
+		$("#twitterSocialLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(8);
+		});
+		$("#rssSocialLink").mouseenter(function() {
+			$('#headerTopAreaSlider').stop().anythingSlider(9);
+		});
 
 	</script>
 </footer>

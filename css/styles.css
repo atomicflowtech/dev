@@ -78,7 +78,7 @@ padding: 0px ;
 text-align: justify ;
 }
 
-.headerTopAreaSliderHeading span {
+.headerTopAreaSliderHeading span:not(.orange1) {
 	font-size: 1px ;
 	word-spacing: 1000px;
 }
@@ -259,7 +259,7 @@ footer{
 .blue1{color: #38BFF2}
 .pink{color:#EB3847}
 .green1{color:#96B21E}
-.orange1{color:#F8B32B}
+.orange1{color:#F7800B}
 .orange2{color:#FF6627}
 .yellow{color:#F9F800}
 .red{color:#B81319}

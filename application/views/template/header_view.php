@@ -2,16 +2,16 @@
 	<div id="topLinksFullContainer" class="container_full">
 		<div id="topLinksContainer" class="container_16">
 			<ul class="socialLinksList grid_6 suffix_2">
-				<li>
+				<li id="googleSocialLink">
 					<a href="http://plus.google.com">Google+</a>
 				</li>
-				<li>
+				<li id="facebookSocialLink">
 					<a href="http://facebook.com">Facebook</a>
 				</li>
-				<li>
+				<li id="twitterSocialLink" >
 					<a href="http://twitter.com">Twitter</a>
 				</li>
-				<li>
+				<li id="rssSocialLink" >
 					<a href="<?php echo site_url('rss');?>">RSS</a>
 				</li>
 			</ul>
@@ -41,6 +41,18 @@
 			</li>
 			<li>
 				<h2 class="headerTopAreaSliderHeading">HAVE YOUR PEOPLE CALL OUR PEOPLE<span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">+1 <span class="orange1">ATOMICFLOW</span> ON GOOGLE PLUS!<span class="spacer"> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">LIKE <span class="orange1">ATOMICFLOW</span> ON FACEBOOK!<span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">FOLLOW <span class="orange1">ATOMICFLOW</span> ON TWITTER! <span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">LIKE THE DAILY NEWS, BUT BETTER.<span> &nbsp; </span></h2>
 			</li>
 		</ul>
 	</div>
