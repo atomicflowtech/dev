@@ -31,7 +31,16 @@
 				<h2 class="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
 			</li>
 			<li>
-				<h2 class="headerTopAreaSliderHeading">WHAT WE DO HERE<span> &nbsp; </span></h2>
+				<h2 class="headerTopAreaSliderHeading">WHAT THESE GUYS ARE ALL ABOUT<span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">WHAT WE CAN DO FOR YOU<span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">WHAT WE'VE DONE ALREADY<span> &nbsp; </span></h2>
+			</li>
+			<li>
+				<h2 class="headerTopAreaSliderHeading">HAVE YOUR PEOPLE CALL OUR PEOPLE<span> &nbsp; </span></h2>
 			</li>
 		</ul>
 	</div>

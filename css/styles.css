@@ -94,7 +94,7 @@ text-align: justify ;
 	width: 100%;
 	height: 160px;
 	background-color:#161616;
-	background: url("../images/backgrounds/navBG.jpg") repeat top center;
+	background: url("../images/backgrounds/navBG2.jpg") repeat top center;
 	z-index:1;
 	position:relative;
 	
@@ -119,8 +119,12 @@ box-shadow:0px 0px 10px #000000;
 
 #mainNavigation{
 	/*padding-top:65px;*/
-	line-height: 160px;
+	/*line-height: 160px;*/
 	height: 160px;
+	background-image: url("../images/backgrounds/navBGLines.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-x: -40px;
 }
 
 #mainNavigationList{
@@ -129,15 +133,24 @@ box-shadow:0px 0px 10px #000000;
 }
 #mainNavigationList li{
 	float:left;
-	margin-right: 45px;
+	/*margin-right: 45px;*/
 	font-size: 16px;
 	font-family: "LeagueGothicRegular", sans-serif;
 /*	letter-spacing: .1em;*/
 	text-transform: uppercase;
+	width:80px;
+	height:80px;
+	margin-top: 42px;
+	line-height: 80px;
+}
+#mainNavigationList li:hover{
+	background-image: url("../images/backgrounds/navBGCircle.png");
+	background-repeat: no-repeat;
 }
 #mainNavigationList li a {
 	text-decoration: none;
 	color:#FFF;
+	margin-left:19px;
 }
 
 
