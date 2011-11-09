@@ -41,4 +41,4 @@ var gOverride = {
 };
 </script>
 	</head>
-	<body>
+	<body id="<?php echo $this->uri->segment(1); ?>">

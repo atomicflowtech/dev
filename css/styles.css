@@ -147,6 +147,18 @@ box-shadow:0px 0px 10px #000000;
 	background-image: url("../images/backgrounds/navBGCircle.png");
 	background-repeat: no-repeat;
 }
+
+li#homeLink , /*--Home Page > Home Link--*/
+body#about li#aboutLink , /*--About Page > About Link--*/
+body#skills li#servicesLink , /*--Services Page > Services Link--*/
+body#work li#portfolioLink , /*--Portfolio Page > Portfolio Link--*/
+body#contact li#contactLink , /*--Contact Page > Contact Link--*/
+{
+	/*background-image: url("../images/backgrounds/navBGCircle.png");*/
+	background:#00FF00;
+	font-family: arial;
+}
+
 #mainNavigationList li a {
 	text-decoration: none;
 	color:#FFF;
