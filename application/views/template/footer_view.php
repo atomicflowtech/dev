@@ -33,49 +33,11 @@
 	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.video.js"></script>
 	<script src="<?php echo base_url();?>js/AnythingSlider/swfobject.js"></script>
 	<script src="<?php echo base_url();?>js/lavalamp/jquery.lavalamp.js"></script>
-	<script>
-		// DOM Ready
-		$(function() {
-			$('#headerTopAreaSlider').anythingSlider({
-				buildArrows : false,
-				buildNavigation : false,
-				buildStartStop : false,
-				easing : "easeOutElastic",
-				// vertical: true,
-			});
-		});
-		// TODO Create function to handle this and move it to a seperate js
-		$("#homeLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(1);
-		});
-
-		$("#aboutLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(2);
-		});
-		$("#skillsLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(3);
-		});
-		$("#workLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(4);
-		});
-		$("#contactLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(5);
-		});
-		
-		$("#googleSocialLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(6);
-		});
-		$("#facebookSocialLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(7);
-		});
-		$("#twitterSocialLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(8);
-		});
-		$("#rssSocialLink").mouseenter(function() {
-			$('#headerTopAreaSlider').stop().anythingSlider(9);
-		});
-
+	<script type="text/javascript">
+	    var currentPageName = "<?php echo $this->uri->segment(1);?>";
 	</script>
+	<script src="<?php echo base_url();?>js/topAreaSlider.js"></script>
+
 </footer>
 </body>
 </html> 

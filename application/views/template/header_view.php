@@ -3,16 +3,16 @@
 		<div id="topLinksContainer" class="container_16">
 			<ul class="socialLinksList grid_6 suffix_2">
 				<li id="googleSocialLink">
-					<a href="http://plus.google.com">Google+</a>
+					<a class="topAreaSliderLink" href="http://plus.google.com">Google+</a>
 				</li>
 				<li id="facebookSocialLink">
-					<a href="http://facebook.com">Facebook</a>
+					<a class="topAreaSliderLink" href="http://facebook.com">Facebook</a>
 				</li>
 				<li id="twitterSocialLink" >
-					<a href="http://twitter.com">Twitter</a>
+					<a class="topAreaSliderLink" href="http://twitter.com">Twitter</a>
 				</li>
 				<li id="rssSocialLink" >
-					<a href="<?php echo site_url('rss');?>">RSS</a>
+					<a class="topAreaSliderLink" href="<?php echo site_url('rss');?>">RSS</a>
 				</li>
 			</ul>
 			<ul class="contactLinksList grid_8">
