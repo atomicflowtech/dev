@@ -1,0 +1,333 @@
+body {
+	background-image: url("../images/backgrounds/creativegridbg.jpg");
+	font-size: 13px;
+}
+/**********************************************/
+/* SOCIAL LINKS                               */
+/**********************************************/
+#topLinksContainer .socialLinksList li{
+	display: inline;
+	margin-left: 0px;
+/*	letter-spacing: .1em;*/
+	float:left;
+	padding-right: 44px;
+}
+
+#topLinksContainer .contactLinksList li{
+	display: inline;
+	float: right;
+	padding-left: 44px;
+	}
+
+#topLinksContainer li a {
+	text-decoration: none;
+	color: #666666;
+	
+}
+
+#topLinksContainer li a:hover{
+	color:#CCCCCC;
+}
+
+#topLinksContainer li {
+	font-family: "PTSansBold", sans-serif;
+	color: #666666;
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: 45px;
+}
+#topLinksContainer{
+/*	-moz-box-shadow:0px 0px 15px #000000;
+-webkit-box-shadow:0px 0px 15px #000000;
+box-shadow:0px 0px 15px #000000;*/
+}
+
+#topLinksFullContainer{
+	background-color: #000000;
+	position: relative;
+	z-index: 1;
+
+	/*overflow:visible;*/
+	height: 45px;
+	-moz-box-shadow: 0px 0px 15px #000;
+-webkit-box-shadow: 0px 0px 15px #000;
+box-shadow: 0px 0px 15px #000;
+}
+#headerTopAreaSlider{
+	/*background-image: url("../images/backgrounds/top_words.png");*/
+	
+	height:52px;
+	/*text-indent: -9999px;*/
+	
+}
+
+.headerTopAreaSliderHeading{
+	color: #000000;
+	font-family: "LeagueGothicRegular", sans-serif;
+	font-size: 88px;
+	opacity: .6;
+	position: relative;
+/*	bottom:0px;*/		
+display: block;
+width: 100%;
+height: 1em;
+line-height: 1em;
+margin: 20px auto;
+margin-top: 0px;
+padding: 0px ;
+text-align: justify ;
+}
+
+.headerTopAreaSliderHeading span:not(.orange1) {
+	font-size: 1px ;
+	word-spacing: 1000px;
+}
+
+
+#headerTopAreaFullContainer{
+/*background-image: url("../images/backgrounds/headerTopAreaSliderBackground.jpg");*/
+	background: url("../images/backgrounds/headerTopAreaSliderBackground.jpg") no-repeat top center;
+	height: 52px;
+}
+
+#headerBar{
+	width: 100%;
+	height: 160px;
+	background-color:#161616;
+	background: url("../images/backgrounds/navBG2.jpg") repeat top center;
+	z-index:1;
+	position:relative;
+	
+	-moz-box-shadow:0px 0px 10px #000000;
+-webkit-box-shadow:0px 0px 10px #000000;
+box-shadow:0px 0px 10px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+	  /*box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
+    -webkit-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);*/
+}
+#headerBar h1{
+	margin-top:30px;
+	color:#FFF;
+	background-image: url("../images/logos/AFTDLogoAndWordmark.png");
+	background-repeat:no-repeat;
+	height:93px;
+	width: 374px;
+	text-indent: -9999px;
+}
+
+#mainNavigation{
+	/*padding-top:65px;*/
+	/*line-height: 160px;*/
+	height: 160px;
+	background-image: url("../images/backgrounds/navBGLines.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-x: -40px;
+}
+
+#mainNavigationList{
+	float:right;
+	list-style: none;
+}
+#mainNavigationList li{
+	float:left;
+	/*margin-right: 45px;*/
+	font-size: 16px;
+	font-family: "LeagueGothicRegular", sans-serif;
+/*	letter-spacing: .1em;*/
+	text-transform: uppercase;
+	width:80px;
+	height:80px;
+	margin-top: 42px;
+	line-height: 80px;
+}
+#mainNavigationList li:hover{
+	background-image: url("../images/backgrounds/navBGCircle.png");
+	background-repeat: no-repeat;
+}
+
+body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#work li#workLink, body#contact li#contactLink
+{
+	background-image: url("../images/backgrounds/navBGCircle.png");
+}
+
+
+
+
+#mainNavigationList li a {
+	text-decoration: none;
+	color:#FFF;
+	margin-left:19px;
+}
+
+
+div#mainSlider{
+	height: 350px;
+	width:100%;
+/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
+background:url("../images/backgrounds/creativegridbg.jpg");
+	-moz-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
+
+padding-top:40px;
+
+}
+
+#mainSliderCaptionArea{
+	
+	
+	
+}
+
+#mainSliderCaption{
+	height:127px;
+	color:#FFFFFF;
+	font-size:51px;
+	font-family: 'LeagueGothicRegular', arial;
+	line-height: 50px;
+	margin-top:35px;
+	background-color:#D34900;
+	padding-top: 20px;
+	padding-left: 82px;
+	position: relative;
+	z-index: 3;
+}
+#mainSliderCaption p{
+	
+
+}
+.captionAmpersand{
+	color:#817C05;
+	position: absolute;
+	font-size: 120px;
+	z-index: 0;
+	margin-left:-55px;
+	margin-top:25px;
+}
+#mainSliderSubCaption{
+	background-color: #191919;
+	margin-top:10px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20pt;
+	color:#4B5255;
+	padding-left:82px;
+}
+#mainSliderSubCaption a{
+	color:#1FB8F1;
+	
+	
+}
+
+
+/**********************************************/
+/* QUICK LINKS                                */
+/**********************************************/
+#quickLinkSkillsFullContainer{
+	border-bottom-style: solid;
+	border-top-style:solid;
+	border-color: #F9810B;
+	border-width: 1px;
+	background-color: #000000;
+	height: 70px;
+}
+
+#quickLinkSkillsContainer{
+	/*width:100%;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;*/
+	background-color:#161616;
+	background-image: url("../images/backgrounds/quickLinksBG.png");
+}
+
+#quickLinkSkillsContainer .quickLinkSkillsList li{
+	line-height:70px;
+	display: inline;
+	margin-right: 54px;
+	font-size: 37px;
+	font-family: "LeagueGothicRegular", sans-serif;
+	text-transform:uppercase;
+	color:#FFFFFF;
+/*	letter-spacing: .1em;*/
+}
+
+#subHeaderFullContainer{
+	height: 170px;
+	background-image: url("../images/backgrounds/blackPaper.png");
+	-moz-box-shadow:0px 0px 12px #000000;
+	-webkit-box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;
+/*	margin-top:20px;*/
+	padding-top: 20px;
+}
+#subHeaderTitle{
+	background-image: url("../images/headers/creativeDesignersIntelligentCode.png");
+	background-repeat: no-repeat;
+	height: 130px;
+	text-indent: -9999px;
+}
+
+#taglineDescriptionContainer{
+	font-family: 'QuickSandBook', sans-serif;
+	letter-spacing: .1em;
+	float:right;
+	color:#FFFFFF;
+	font-size: 16px;
+}
+
+#mainContentContainer{
+	height: 400px;
+	
+}
+
+footer{
+	width:100%;
+	background-color:#161616;
+	-moz-box-shadow:0px 0px 15px #000000;
+	-webkit-box-shadow:0px 0px 15px #000000;
+	box-shadow:0px 0px 15px #000000;
+}
+
+#footerContainer{
+	height:200px;
+}
+
+#footerContainer li{
+	display: inline;
+	font-size: 15px;
+	font-family: "SansationRegular", sans-serif;
+	letter-spacing: .1em;
+	float:left;
+}
+
+#footerContainer li a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+#footerDescriptionText{
+	float:right;
+}
+
+.alpha{margin-left: 0 !important;}
+.omega{margin-right: 0 !important;}
+
+.blue1{color: #1FB8F1}
+.pink{color:#EB3847}
+.green1{color:#96B21E}
+.orange1{color:#F7800B}
+.orange2{color:#FF6627}
+.yellow{color:#F9F800}
+.red{color:#B81319}
+.blue2{color:#0771B1}
+.purple{color:#8346FF}
+.green2{color:#7FAD06}
+
+
