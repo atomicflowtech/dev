@@ -3,22 +3,22 @@
 	<h1>Contact Us</h1>
 	<h2>Things and stuff</h2>
 	<?php echo validation_errors(); ?>
-	<form id="contact-form" name="contact-form" method="post" action="<?php echo site_url('contact'); ?>">
+	<form id="contactForm" name="contactForm" method="post" action="<?php echo site_url('contact'); ?>">
 		<table width="100%" border="0" cellspacing="0" cellpadding="5">
 			<tr>
 			  <td width="15%"><label for="name">Name</label></td>
-			  <td width="70%"><input type="text" class="validate[required,custom[onlyLetter]]" name="name" id="name" value="<?php echo set_value('name'); ?>" /></td>
+			  <td width="70%"><input type="text" class="required" name="name" id="name" value="<?php echo set_value('name'); ?>" /></td>
 			  <td width="15%" id="errOffset">&nbsp;</td>
 			</tr>
 			<tr>
 			  <td><label for="email">Email</label></td>
-			  <td><input type="email" class="validate[required,custom[email]]" name="email" id="email" value="<?php echo set_value('email'); ?>" /></td>
+			  <td><input type="text" class="required email" name="email" id="email" value="<?php echo set_value('email'); ?>" /></td>
 			  <td>&nbsp;</td>
 			</tr>
 			<tr>
 			  <td><label for="subject">Subject</label></td>
 			  <td>
-			  	<select name="subject" id="subject">
+			  	<select name="subject" class="required" id="subject">
 					<?php
 					if(set_value('subject')===''){
 						echo "<option value='' selected='selected'> - Choose -</option>";
@@ -42,7 +42,7 @@
 			</tr>
 			<tr>
 			  <td valign="top"><label for="message">Message</label></td>
-			  <td><textarea name="message" id="message" class="validate[required]" cols="35" rows="5"><?php echo set_value('message'); ?></textarea></td>
+			  <td><textarea name="message" id="message" class="required" cols="35" rows="5"><?php echo set_value('message'); ?></textarea></td>
 			  <td valign="top">&nbsp;</td>
 			</tr>
 			<tr>
