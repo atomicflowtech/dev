@@ -37,32 +37,32 @@ $(".topAreaSliderLink").mouseleave(function(){
 	$('#headerTopAreaSlider').stop().anythingSlider(currentPageNum);
 });
 
-$("#homeLink").mouseenter(function() {
+$("#homeLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(1);
 });
 
-$("#aboutLink").mouseenter(function() {
+$("#aboutLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(2);
 });
-$("#skillsLink").mouseenter(function() {
+$("#skillsLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(3);
 });
-$("#workLink").mouseenter(function() {
+$("#workLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(4);
 });
-$("#contactLink").mouseenter(function() {
+$("#contactLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(5);
 });
 
-$("#googleSocialLink").mouseenter(function() {
+$("#googleSocialLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(6);
 });
-$("#facebookSocialLink").mouseenter(function() {
+$("#facebookSocialLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(7);
 });
-$("#twitterSocialLink").mouseenter(function() {
+$("#twitterSocialLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(8);
 });
-$("#rssSocialLink").mouseenter(function() {
+$("#rssSocialLink").mouseover(function() {
 	$('#headerTopAreaSlider').stop().anythingSlider(9);
 });
