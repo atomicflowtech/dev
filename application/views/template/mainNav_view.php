@@ -3,20 +3,20 @@
 		<a class="grid_7 suffix_2" href="<?php echo base_url();?>"><h1 class="grid_7">AtomicFlow</h1></a>
 		<nav id="mainNavigation" class="grid_7">
 			<ul id="mainNavigationList" class="" >
-				<li id="homeLink" class="alpha">
-					<a class="topAreaSliderLink" href="<?php echo site_url('home');?>">&#43;Home</a>
+				<li id="homeLink" class="alpha topAreaSliderLink">
+					<a href="<?php echo site_url('home');?>">&#43;Home</a>
 				</li>
-				<li id="aboutLink">
-					<a class="topAreaSliderLink" href="<?php echo site_url('about');?>">+About</a>
+				<li id="aboutLink" class="topAreaSliderLink" >
+					<a href="<?php echo site_url('about');?>">+About</a>
 				</li>
-				<li id="skillsLink">
-					<a class="topAreaSliderLink" href="<?php echo site_url('skills');?>">+Skills</a>
+				<li id="skillsLink" class="topAreaSliderLink" >
+					<a href="<?php echo site_url('skills');?>">+Skills</a>
 				</li>
-				<li id="workLink">
-					<a class="topAreaSliderLink" href="<?php echo site_url('work');?>">+Work</a>
+				<li id="workLink" class="topAreaSliderLink" >
+					<a href="<?php echo site_url('work');?>">+Work</a>
 				</li>
-				<li id="contactLink" class="omega">
-					<a class="topAreaSliderLink" href="<?php echo site_url('contact');?>">+Contact</a>
+				<li id="contactLink" class="omega topAreaSliderLink">
+					<a href="<?php echo site_url('contact');?>">+Contact</a>
 				</li>
 			</ul>
 			<!-- end mainNavigationList -->
