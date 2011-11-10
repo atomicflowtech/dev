@@ -41,4 +41,11 @@ var gOverride = {
 };
 </script>
 	</head>
-	<body id="<?php echo $this->uri->segment(1); ?>">
+	<body id="<?php 
+	if($this->uri->segment(1)==""){
+		echo "home";
+	}
+	else{
+		echo $this->uri->segment(1);
+	}
+	?>">
