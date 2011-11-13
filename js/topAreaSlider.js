@@ -5,7 +5,7 @@ $(function() {
 		buildArrows : false,
 		buildNavigation : false,
 		buildStartStop : false,
-		easing : "easeOutElastic",
+		easing : "easeOutExpo",
 		// vertical: true,
 	});
 });
