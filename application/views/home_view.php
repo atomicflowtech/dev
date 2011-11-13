@@ -2,7 +2,7 @@
 	<div id="mainSlider" class="container_full" >
 		<div id="mainSliderContentContainer" class="container_16">
 			<div id="mainSliderPicture" class="grid_8">
-				<img width="320px" height="243px" src="<?php echo base_url();?>images/mainSlider/imacedit.png" />
+				<img width="420px" height="343px" src="<?php echo base_url();?>images/mainSlider/imacedit.png" />
 			</div>
 			<div id="mainSliderCaptionArea" class="grid_8">
 			<div id="mainSliderCaption" >
