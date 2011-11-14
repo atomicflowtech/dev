@@ -182,7 +182,8 @@ background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");
 padding-top:40px;
 
 }
-
+#mainSliderContentContainer{
+/*	background: url("../images/backgrounds/mainSlider.png")*/}
 #mainSliderCaptionArea{
 	
 	
