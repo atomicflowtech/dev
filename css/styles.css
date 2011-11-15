@@ -154,21 +154,28 @@ box-shadow:0px 0px 4px #000000;
 	background-repeat: no-repeat;
 }
 
-body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#work li#workLink, body#contact li#contactLink
-{
-	background-image: url("../images/backgrounds/navBGCircle.png");
-}
-
-
-
-
 #mainNavigationList li a {
 	text-decoration: none;
 	color:#333333;
 	margin-left:19px;
 }
 
+#mainNavigationList li#skillsLink {
+	text-decoration: none;
+	color:#333333;
+	margin-left:19px;
+}
 
+body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#work li#workLink, body#contact li#contactLink
+{
+	background-image: url("../images/backgrounds/navBGCircle.png");
+}
+
+body#home li#homeLink a, body#about li#aboutLink a, body#skills li#skillsLink a, body#work li#workLink a, body#contact li#contactLink a
+{
+		color:#1FB8F1;
+
+}
 div#mainSlider{
 	height: 350px;
 	width:100%;
