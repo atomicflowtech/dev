@@ -173,8 +173,10 @@ body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#
 
 body#home li#homeLink a, body#about li#aboutLink a, body#skills li#skillsLink a, body#work li#workLink a, body#contact li#contactLink a
 {
-		color:#1FB8F1;
-
+		color:#969696;
+}
+#mainNavigationList li:hover a{
+	color:#969696;
 }
 div#mainSlider{
 	height: 350px;
