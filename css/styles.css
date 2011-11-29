@@ -55,8 +55,8 @@ box-shadow: 0px 0px 15px #000;
 }
 #headerTopAreaSlider{
 	/*background-image: url("../images/backgrounds/top_words.png");*/
-	
-	height:52px;
+	position:absolute;
+	top:65px;
 	/*text-indent: -9999px;*/
 	
 }
@@ -93,11 +93,8 @@ text-align: justify ;
 #headerBar{
 	width: 100%;
 	height: 104px;
-	background-color:#161616;
-	background: #FFFFFF url("../images/backgrounds/wingBarLighter.png") no-repeat;
-	z-index:1;
 	position:relative;	
-	
+	z-index:1000;
 	-moz-box-shadow:0px 0px 4px #000000;
 -webkit-box-shadow:0px 0px 4px #000000;
 box-shadow:0px 0px 4px #000000;
@@ -118,7 +115,7 @@ box-shadow:0px 0px 4px #000000;
 }
 
 #headerBarContent{
-	background: url("../images/backgrounds/headerBarContentBGDots.png")
+	
 }
 
 #mainNavigation{
@@ -150,8 +147,8 @@ box-shadow:0px 0px 4px #000000;
 	line-height: 80px;
 }
 #mainNavigationList li:hover{
-	background-image: url("../images/backgrounds/navBGCircleHover.png");
-	background-repeat: no-repeat;
+	/* background-image: url("../images/backgrounds/navBGCircleHover.png");
+	background-repeat: no-repeat; */
 }
 
 #mainNavigationList li a {
@@ -168,7 +165,7 @@ box-shadow:0px 0px 4px #000000;
 
 body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#work li#workLink, body#contact li#contactLink
 {
-	background-image: url("../images/backgrounds/navBGCircle.png");
+	/* background-image: url("../images/backgrounds/navBGCircle.png"); */
 }
 
 body#home li#homeLink a, body#about li#aboutLink a, body#skills li#skillsLink a, body#work li#workLink a, body#contact li#contactLink a
