@@ -13,7 +13,7 @@
 	navigationFormatter: function(index, panel){
 		return "Panel #" + index; // This would have each tab with the text 'Panel #X' where X = index
 	}
-*/
+	*/
 
 (function($) {
 
