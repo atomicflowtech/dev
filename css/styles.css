@@ -190,6 +190,7 @@ color: #FFFFFF;}
 div#mainSlider{
 	height: 400px;
 	width:100%;
+	background: url("../images/backgrounds/typogBG.png");
 /*	background: #FFFFFF;*/
 	/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
 	/*background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");*/	
