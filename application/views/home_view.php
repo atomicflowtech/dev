@@ -4,7 +4,7 @@
 			
 				<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
 			<img  src="<?php echo base_url();?>images/slides/flowfact2.png"/>
-			<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
+			<img  src="<?php echo base_url();?>images/slides/flowfact3.png"/>
 			
 			
 		</div>
