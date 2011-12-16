@@ -32,7 +32,7 @@
 	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.js"></script>
 	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.video.js"></script>
 	<script src="<?php echo base_url();?>js/AnythingSlider/swfobject.js"></script>
-	<script src="<?php echo base_url();?>js/lavalamp/jquery.lavalamp.js"></script>
+	<script src="<?php echo base_url();?>js/orbit/jquery.orbit-1.2.3.min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.validate.js"></script>
 	<script type="text/javascript">
 	    var currentPageName = "<?php echo $this->uri->segment(1);?>";

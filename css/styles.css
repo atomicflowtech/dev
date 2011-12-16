@@ -1,5 +1,4 @@
 body {
-	background-image: url("../images/backgrounds/creativegridbg.jpg");
 	font-size: 13px;
 }
 /**********************************************/
@@ -191,7 +190,7 @@ color: #FFFFFF;}
 div#mainSlider{
 	height: 400px;
 	width:100%;
-	background: #FFFFFF;
+/*	background: #FFFFFF;*/
 	/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
 	/*background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");*/	
 	/*-moz-box-shadow:0px 0px 12px #000000;
@@ -270,8 +269,6 @@ padding-top:0px;
 	box-shadow:0px 0px 15px #000000;
 	padding-top: 20px;
 	padding-bottom: 20px;*/
-	background-color:#161616;
-	background-image: url("../images/backgrounds/quickLinksBG.png");
 }
 
 #quickLinkSkillsContainer .quickLinkSkillsList li{
