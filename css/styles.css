@@ -49,9 +49,9 @@ box-shadow:0px 0px 15px #000000;*/
 
 	/*overflow:visible;*/
 	height: 30px;
-	-moz-box-shadow: 0px 0px 15px #000;
+	/*-moz-box-shadow: 0px 0px 15px #000;
 -webkit-box-shadow: 0px 0px 15px #000;
-box-shadow: 0px 0px 15px #000;
+box-shadow: 0px 0px 15px #000;*/
 }
 #headerTopAreaSlider{
 	/*background-image: url("../images/backgrounds/top_words.png");*/
@@ -92,10 +92,11 @@ text-align: justify ;
 
 #headerBar{
 	width: 100%;
-	height: 104px;
-	background-color:#161616;
-	background: #FFFFFF url("../images/backgrounds/wingBarLighter.png") no-repeat;
-	border: #E5E5E5 solid 1px;
+	height: 85px;
+	background: #FFFFFF url("../images/backgrounds/headerBarContentBGDots.png");
+	/*background: #FFFFFF url("../images/backgrounds/wingBarLighter.png") no-repeat;*/
+	border-bottom:1px #E5E5E5 /*#333333*/ solid ;
+	position: relative;
 /*	z-index:1;	*/
 	/*-moz-box-shadow:0px 0px 4px #000000;
 -webkit-box-shadow:0px 0px 4px #000000;
@@ -107,23 +108,23 @@ box-shadow:0px 0px 4px #000000;*/
     -webkit-box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);*/
 }
 #headerBar h1{
-	margin-top:35px;
+	margin-top:24px;
 	color:#FFF;
 	background-image: url("../images/logos/AtomicFlowWordmark.png");
 	background-repeat:no-repeat;
-	height:42px;
-	width: 289px;
+	height:50px;
+	width: 346px;
 	text-indent: -9999px;
 }
 
 #headerBarContent{
-	background: url("../images/backgrounds/headerBarContentBGDots.png")
+	background: #FFFFFF;
 }
 
 #mainNavigation{
 	/*padding-top:65px;*/
 	/*line-height: 160px;*/
-	height: 104px;
+	height: 85px;
 	background-image: url("../images/backgrounds/navBGLines.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -139,55 +140,66 @@ box-shadow:0px 0px 4px #000000;*/
 #mainNavigationList li{
 	float:left;
 	/*margin-right: 45px;*/
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "LeagueGothicRegular", sans-serif;
 /*	letter-spacing: .1em;*/
 	text-transform: uppercase;
 	width:80px;
-	height:80px;
-	margin-top: 12px;
+	height:73px;
+	padding-top: 12px;
 	line-height: 80px;
 }
 #mainNavigationList li:hover{
-	background-image: url("../images/backgrounds/navBGCircleHover.png");
-	background-repeat: no-repeat;
+	background: #000000;
+		border-bottom: 10px #20B8F1 solid;
+
+	/*background-image: url("../images/backgrounds/navBGCircleHover.png");
+	background-repeat: no-repeat;*/
 }
 
 #mainNavigationList li a {
 	text-decoration: none;
 	color:#333333;
-	margin-left:19px;
+	margin-left:17px;
+}
+
+#mainNavigationList li#contactLink a {
+	margin-left:10px;
 }
 
 #mainNavigationList li#skillsLink {
 	text-decoration: none;
 	color:#333333;
-	margin-left:19px;
+	margin-left:17px;
 }
 
 body#home li#homeLink, body#about li#aboutLink, body#skills li#skillsLink, body#work li#workLink, body#contact li#contactLink
 {
-	background-image: url("../images/backgrounds/navBGCircle.png");
+	/*background-image: url("../images/backgrounds/navBGCircle.png");*/
+	background:#000000;
+	border-bottom: 10px #F9810B solid;
 }
 
 body#home li#homeLink a, body#about li#aboutLink a, body#skills li#skillsLink a, body#work li#workLink a, body#contact li#contactLink a
 {
-		color:#969696;
+		/*color:#969696;*/
+		color:#FFFFFF;
 }
 #mainNavigationList li:hover a{
-	color:#969696;
-}
+/*	color:#969696;*/
+color: #FFFFFF;}
 div#mainSlider{
-	height: 350px;
+	height: 400px;
 	width:100%;
-/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
-background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");
+	background: #FFFFFF;
+	/*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
+	/*background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");*/	
 	/*-moz-box-shadow:0px 0px 12px #000000;
 	-webkit-box-shadow:0px 0px 12px #000000;
 	box-shadow:0px 0px 12px #000000;*/
-/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
 
-padding-top:40px;
+padding-top:0px;
 
 }
 #mainSliderContentContainer{
@@ -243,10 +255,10 @@ padding-top:40px;
 /* QUICK LINKS                                */
 /**********************************************/
 #quickLinkSkillsFullContainer{
-	border-bottom-style: solid;
-	border-top-style:solid;
+	/*border-bottom-style: solid;*/
+	/*border-top-style:solid;
 	border-color: #F9810B;
-	border-width: 1px;
+	border-width: 1px;*/
 	background-color: #000000;
 	height: 70px;
 }
