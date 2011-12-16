@@ -1,13 +1,14 @@
 <section>
-	<div id="mainSlider" class="container_full" >
+	<!-- <div id="mainSlider" class="container_full" > -->
 		<div id="mainSliderContentContainer" class="container_16">
 			
-				<img  src="<?php echo base_url();?>images/slides/flowfact1.png" />
-			
+				<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
+			<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
+			<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
 			
 			
 		</div>
-		</div>
+		<!-- </div> -->
 	</div>
 	
 	<div id="quickLinkSkillsFullContainer" class="container_full">

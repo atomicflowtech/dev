@@ -19,7 +19,7 @@
 		<!-- ANYTHING SLIDER -->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/AnythingSlider/anythingslider.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/AnythingSlider/anythingslider-ie.css" />
-		
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/orbit/orbit-1.2.3.css" />
 		<script type="text/javascript">
 		//Script Brandon added to override default styles in the 960 Gridder overlay
 var gOverride = {

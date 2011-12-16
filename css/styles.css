@@ -96,7 +96,7 @@ text-align: justify ;
 	/*background: #FFFFFF url("../images/backgrounds/wingBarLighter.png") no-repeat;*/
 	border-bottom:1px #E5E5E5 /*#333333*/ solid ;
 	position: relative;
-/*	z-index:1;	*/
+	z-index:2;	
 	/*-moz-box-shadow:0px 0px 4px #000000;
 -webkit-box-shadow:0px 0px 4px #000000;
 box-shadow:0px 0px 4px #000000;*/
@@ -354,5 +354,19 @@ footer{
 .blue2{color:#0771B1}
 .purple{color:#8346FF}
 .green2{color:#7FAD06}
+
+div.orbit-wrapper { 
+	position:relative;
+	z-index:0;
+	margin: 0 auto;
+	width:960px;
+	height: 400px;
+	}
+	  #mainSliderContentContainer { 
+          width: 940px;
+          height: 450px;
+           background: #FFFFFF url("../../images/orbit/loading.gif") no-repeat center center; overflow: hidden; }
+     #mainSliderContentContainer img,  
+     #mainSliderContentContainer div { display: none; }
 
 

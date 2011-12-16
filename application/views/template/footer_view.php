@@ -39,7 +39,7 @@
 	</script>
 	<script src="<?php echo base_url();?>js/topAreaSlider.js"></script>
 	<script src="<?php echo base_url();?>js/contactValidation.js"></script>
-
+	<script src="<?php echo base_url();?>js/AFTECHStartupCode.js"></script>
 </footer>
 </body>
 </html> 
