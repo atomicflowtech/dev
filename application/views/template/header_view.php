@@ -21,38 +21,8 @@
 				</li>
 				<li>
 					Email: <a href="mailto:info@atomicflowtech.com?subject=feedback">Info@AtomicFlowTech.com</a>
-				</li>
+				</li> 
 			</ul>
 		</div>
 	</div>
-	<div id="headerTopAreaFullContainer"class="container_full">
-		<ul id="headerTopAreaSlider" class="container_16">
-			<li>
-				<h2 class="headerTopAreaSliderHeading">HTML CSS DESIGN MARKETING<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">WHAT THESE GUYS ARE ALL ABOUT<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">WHAT WE CAN DO FOR YOU<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">WHAT WE'VE DONE ALREADY<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">HAVE YOUR PEOPLE CALL OUR PEOPLE<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">+1 <span class="orange1">ATOMICFLOW</span> ON GOOGLE PLUS!<span class="spacer"> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">LIKE <span class="orange1">ATOMICFLOW</span> ON FACEBOOK!<span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">FOLLOW <span class="orange1">ATOMICFLOW</span> ON TWITTER! <span> &nbsp; </span></h2>
-			</li>
-			<li>
-				<h2 class="headerTopAreaSliderHeading">LIKE THE DAILY NEWS, BUT BETTER.<span> &nbsp; </span></h2>
-			</li>
-		</ul>
-	</div>
+	

@@ -95,12 +95,11 @@ text-align: justify ;
 	height: 104px;
 	background-color:#161616;
 	background: #FFFFFF url("../images/backgrounds/wingBarLighter.png") no-repeat;
-	z-index:1;
-	position:relative;	
-	
-	-moz-box-shadow:0px 0px 4px #000000;
+	border: #E5E5E5 solid 1px;
+/*	z-index:1;	*/
+	/*-moz-box-shadow:0px 0px 4px #000000;
 -webkit-box-shadow:0px 0px 4px #000000;
-box-shadow:0px 0px 4px #000000;
+box-shadow:0px 0px 4px #000000;*/
 /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
 
 	  /*box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.70);
@@ -183,9 +182,9 @@ div#mainSlider{
 	width:100%;
 /*	background: url("../images/backgrounds/sliderBG_model.jpg") no-repeat center center;*/
 background:#FFFFFF url("../images/backgrounds/plusDesignTrans.png");
-	-moz-box-shadow:0px 0px 12px #000000;
+	/*-moz-box-shadow:0px 0px 12px #000000;
 	-webkit-box-shadow:0px 0px 12px #000000;
-	box-shadow:0px 0px 12px #000000;
+	box-shadow:0px 0px 12px #000000;*/
 /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS...moral of the story? F.I.E. Bruh.*/
 
 padding-top:40px;
@@ -209,8 +208,8 @@ padding-top:40px;
 	background-color:#F9810B;
 	padding-top: 20px;
 	padding-left: 82px;
-	position: relative;
-	z-index: 3;
+	/*position: relative;*/
+	/*z-index: 3;*/
 }
 #mainSliderCaption p{
 	
