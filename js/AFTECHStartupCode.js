@@ -17,7 +17,48 @@
      bulletThumbLocation: '',		 // location from this file where thumbs will be
      afterSlideChange: function(){} 	 // empty function 
 });
-     });
+    }); //end orbit
+    
+    
+    
+    $(function() {
+    	
+        $('#boxWeb').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#181C21');
+        });
+        $('#boxTech').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#181C21');
+        });
+        $('#boxBusiness').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#181C21');
+        });
+        
+        //Make the boxes whole div act like links
+$('#boxWeb').click(function() {
+window.location.href = $('#boxWeb a').attr('href');
+});
+$('#boxTecg').click(function() {
+window.location.href = $('#boxTech a').attr('href');
+});
+$('#boxBusiness').click(function() {
+window.location.href = $('#boxBusiness a').attr('href');
+});
+        
+    });
+     
+    
 
 // $(document).ready(function(){
     // $("#mainNavigationList li").hover(function(){
