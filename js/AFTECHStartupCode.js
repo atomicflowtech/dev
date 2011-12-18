@@ -49,7 +49,7 @@
 $('#boxWeb').click(function() {
 window.location.href = $('#boxWeb a').attr('href');
 });
-$('#boxTecg').click(function() {
+$('#boxTech').click(function() {
 window.location.href = $('#boxTech a').attr('href');
 });
 $('#boxBusiness').click(function() {

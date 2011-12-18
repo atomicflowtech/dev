@@ -186,13 +186,13 @@ line-height:50px;
  ********************************************
    ================================================== */
 #frontBoxesBackBar {
-height:30px;
+height:60px;
 background-color:#000;
 }
 
 
 #frontBoxes{
-	margin: -15px auto 0;
+	margin: -61px auto 0;
 	width:963px;
 	height:470px;
 	padding-left:0;
@@ -214,7 +214,7 @@ background-color:#000;
 color:#FFF;
 border-color: #FFF;
 border-style: solid;
-border-top-width: 2px;
+border-top-width: 1px;
 border-left-width:1px;
 width:320px;
 	height:200px;

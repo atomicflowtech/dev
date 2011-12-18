@@ -12,12 +12,15 @@
 			<div id="frontBoxes">
 				<div id="boxWeb" class="frontBox">
 					<header class="frontBoxHeader"><h3>Web Design</h3></span>
+						<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 				<div id="boxTech" class="frontBox">
 					<header class="frontBoxHeader"><h3>App Development</h3></span>
+							<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 				<div id="boxBusiness" class="frontBox">
 					<header class="frontBoxHeader"><h3>Marketing</h3></span>
+							<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 			</div>
 	<!-- <div id="subHeaderFullContainer" class="container_full">
