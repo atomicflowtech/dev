@@ -19,6 +19,17 @@
 });
      });
 
+// $(document).ready(function(){
+    // $("#mainNavigationList li").hover(function(){
+        // $("#mainNavigationList li a")
+            // // first jump  
+            // .animate({'padding-top':"-10px"}, 200).animate({'padding-top':"-4px"}, 200)
+            // // second jump
+            // .animate({'padding-top':"-7px"}, 100).animate({'padding-top':"-4px"}, 100)
+            // // the last jump
+            // .animate({'padding-top':"-6px"}, 100).animate({'padding-top':"-4px"}, 100);
+    // });
+// });
 
 // $(function() {
  // $('#mainSliderContentContainer').orbit();
