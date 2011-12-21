@@ -210,7 +210,7 @@ background-color:#000;
 .frontBox {
 	float:left;
 	/*background: #F9810B; orange*/
-	background-color: #181C21;
+	background: url("../images/backgrounds/freckles.png");;
 color:#FFF;
 border-color: #FFF;
 border-style: solid;
@@ -238,6 +238,28 @@ width:320px;
 	margin-left:10px;
 	text-align: left;
 	line-height: 48px;
+}
+
+.frontBoxSubHeader{
+	background-color:#EBE9E3;
+	letter-spacing:5px;
+	height:25px;
+	padding-top:5px;
+	padding-left:10px;
+	text-transform:uppercase;
+	font-size:15px;
+	color:#4F454A;
+	font-family: 'PTSansBold';
+}
+
+.frontBox p{
+	color:#181416;
+	margin-left:10px;
+	margin-top: 10px;
+	font-family: 'QuicksandBook';
+	font-size:14px;
+	line-height: 21px;
+	
 }
 
 

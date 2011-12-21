@@ -11,15 +11,21 @@
 	
 			<div id="frontBoxes">
 				<div id="boxWeb" class="frontBox">
-					<header class="frontBoxHeader"><h3>Web Design</h3></span>
+					<header class="frontBoxHeader"><h3>Web Design</h3></header>
+						<h4 class="frontBoxSubHeader">The Digital DaVincis</h4>
+						<p>We create interactive web experiences that sell your idea even better than you can, and might even look better doing it.</p>
 						<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 				<div id="boxTech" class="frontBox">
-					<header class="frontBoxHeader"><h3>App Development</h3></span>
+					<header class="frontBoxHeader"><h3>App Development</h3></header>
+					<h4 class="frontBoxSubHeader">The Coding Whizkids</h4>
+					<p>We have creative designers and intelligent coders that make Picasso and Einstein look like under-achievers. If you can think it, we can build it.</p>
 							<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 				<div id="boxBusiness" class="frontBox">
-					<header class="frontBoxHeader"><h3>Marketing</h3></span>
+					<header class="frontBoxHeader"><h3>Marketing</h3></header>
+					<h4 class="frontBoxSubHeader">The Social Engineers</h4>
+					<p>We staff a brilliant team of highly motivated digital marketeers who eat Twitter, breathe Facebook, and Optimize Websites like it's their job. It's like hiring a team of chatty best friends that can't stop raving about your amazing idea, minus the drama, plus the genius.</p>
 							<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 			</div>
