@@ -13,7 +13,7 @@
 				<div id="boxWeb" class="frontBox">
 					<header class="frontBoxHeader"><h3>Web Design</h3></header>
 						<h4 class="frontBoxSubHeader">The Digital DaVincis</h4>
-						<p>We create interactive web experiences that sell your idea even better than you can, and might even look better doing it.</p>
+						<p>We create interactive web experiences that sell your idea even better than you can, and might even look better doing it. Always online, Always Ready.</p>
 						<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 				<div id="boxTech" class="frontBox">
@@ -25,7 +25,7 @@
 				<div id="boxBusiness" class="frontBox">
 					<header class="frontBoxHeader"><h3>Marketing</h3></header>
 					<h4 class="frontBoxSubHeader">The Social Engineers</h4>
-					<p>We staff a brilliant team of highly motivated digital marketeers who eat Twitter, breathe Facebook, and Optimize Websites like it's their job. It's like hiring a team of chatty best friends that can't stop raving about your amazing idea, minus the drama, plus the genius.</p>
+					<p>We staff a brilliant team of highly motivated digital marketeers who eat Twitter, breathe Facebook, and Optimize Websites like it's their job.</p>
 							<a href="<?php echo site_url('skills');?>"></a>
 				</div>
 			</div>
