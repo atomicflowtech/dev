@@ -21,7 +21,7 @@
     
     
     
-    $(function() {
+    $(function() { //starts dom load function
     	
         $('#boxWeb').hover(function() {
             $(this).animate({
@@ -56,7 +56,11 @@ $('#boxBusiness').click(function() {
 window.location.href = $('#boxBusiness a').attr('href');
 });
         
-    });
+        
+        $('#webSubHeader').airport([ 'The Digital DaVincis', 'The Design Einsteins', 'The Web Gurus' ]);
+        $('#techSubHeader').airport([ 'The Coding Whizkids', 'The Code Junkies', 'The App Poindexters' ]);
+        $('#marketingSubHeader').airport([ 'The Social Engineers', 'The Media Architects', 'The Search Mechanics' ]);
+    }); //ends dom load function
      
     
 

@@ -34,13 +34,14 @@
 	<script src="<?php echo base_url();?>js/AnythingSlider/swfobject.js"></script>
 	<script src="<?php echo base_url();?>js/orbit/jquery.orbit-1.2.3.min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.validate.js"></script>
+	<script src="<?php echo base_url();?>js/jquery.airport.js"></script>
 	<script type="text/javascript">
 	    var currentPageName = "<?php echo $this->uri->segment(1);?>";
 	</script>
 	<script src="<?php echo base_url();?>js/topAreaSlider.js"></script>
 	<script src="<?php echo base_url();?>js/contactValidation.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.color.js"></script>
-	<script src="<?php echo base_url();?>js/AFTECHStartupCode.js"></script>
+	<script src="<?php echo base_url();?>js/StartupCode.js"></script>
 </footer>
 </body>
 </html> 
