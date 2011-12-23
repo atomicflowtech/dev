@@ -1,6 +1,6 @@
 body {
 font-size:13px;
-background: #000 url("../images/backgrounds/struckaxiom2.png");
+background: #000 url("../images/backgrounds/orangeCanvas.png");
 }
 
 /* ********************************************
@@ -186,15 +186,15 @@ line-height:50px;
  ********************************************
    ================================================== */
 #frontBoxesBackBar {
-height:60px;
+height:70px;
 background-color:#000;
 }
 
 
 #frontBoxes{
-	margin: -61px auto 0;
+	margin: -71px auto 0;
 	width:963px;
-	height:470px;
+	height:550px;
 	padding-left:0;
 	padding-right:0;
 	overflow: hidden;
@@ -204,20 +204,20 @@ background-color:#000;
 
 .frontBoxHeader{
 	width:320px;
-	height:60px;
+	height:40px;
 	background: #000000;
 }
 .frontBox {
 	float:left;
-	/*background: #F9810B; orange*/
-	background: url("../images/backgrounds/freckles.png");;
+	background: #FFFFFF;
+	/*background: url("../images/backgrounds/freckles.png");*/
 color:#FFF;
 border-color: #FFF;
 border-style: solid;
 border-top-width: 1px;
 border-left-width:1px;
 width:320px;
-	height:200px;
+	height:300px;
 	padding:0;
 	cursor: pointer;
 }
@@ -230,36 +230,40 @@ width:320px;
 	width: 317px;
 }
 .frontBox h3{
-	padding-top:3px;
-	text-transform:uppercase;
-	font-family:"LeagueGothicRegular", sans-serif;
-	font-size:48px;
-	margin: 0 auto;
-	margin-left:10px;
-	text-align: left;
-	line-height: 48px;
+	text-transform: uppercase;
+font-family: "LeagueGothicRegular", sans-serif;
+font-size: 40px;
+margin: 0 auto;
+margin-left: 10px;
+text-align: left;
+line-height: 48px;
+padding-top: 7px;
 }
 
 .frontBoxSubHeader{
-	background-color:#EBE9E3;
+	background-color:#000;
 	letter-spacing:5px;
-	height:25px;
-	padding-top:5px;
+	height:20px;
+	padding-top:8px;
+	padding-bottom: 2px;
 	padding-left:10px;
 	text-transform:uppercase;
 	font-size:15px;
-	color:#4F454A;
+	color:#FFF;
 	font-family: 'PTSansBold';
 }
 
 .frontBox p{
-	color:#181416;
+	color:#333333;
 	margin-left:10px;
+	margin-right:10px;
 	margin-top: 10px;
-	font-family: 'QuicksandBook';
-	font-size:14px;
-	line-height: 21px;
-	
+	font-family: 'PTSansNarrowRegular';
+	font-size:15px;
+	line-height: 27px;
+	letter-spacing: 1px;
+/*	text-transform: uppercase;*/	
+	opacity: 0.9;
 }
 
 
@@ -293,7 +297,7 @@ height:400px;
 
 footer {
 width:100%;
-background-color:#161616;
+background-color:#FFF;
 -moz-box-shadow:0 0 15px #000;
 -webkit-box-shadow:0 0 15px #000;
 box-shadow:0 0 15px #000;
