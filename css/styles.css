@@ -397,8 +397,14 @@ color:#FFF;
 color:#1FB8F1;
 }
 #mainSliderCTA{
-	width:960px;
-	margin: 0 auto;
+	
+	height:400px;
+	position:relative;
+	/*border-width: 1px;
+	border-color: blue;
+	border-style: solid;*/
+	margin-bottom: -400px;
+	z-index: 2000;
 }
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;

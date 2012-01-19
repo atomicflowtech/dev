@@ -41,6 +41,7 @@
 	<script src="<?php echo base_url();?>js/topAreaSlider.js"></script>
 	<script src="<?php echo base_url();?>js/contactValidation.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.color.js"></script>
+	<script src="<?php echo base_url();?>js/raphael/raphael-min.js"></script>
 	<script src="<?php echo base_url();?>js/StartupCode.js"></script>
 </footer>
 </body>

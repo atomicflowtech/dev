@@ -64,18 +64,26 @@ window.location.href = $('#boxBusiness a').attr('href');
      
     
 
-// $(document).ready(function(){
-    // $("#mainNavigationList li").hover(function(){
-        // $("#mainNavigationList li a")
-            // // first jump  
-            // .animate({'padding-top':"-10px"}, 200).animate({'padding-top':"-4px"}, 200)
-            // // second jump
-            // .animate({'padding-top':"-7px"}, 100).animate({'padding-top':"-4px"}, 100)
-            // // the last jump
-            // .animate({'padding-top':"-6px"}, 100).animate({'padding-top':"-4px"}, 100);
-    // });
-// });
+//************************************************************************************************Raphael
 
-// $(function() {
- // $('#mainSliderContentContainer').orbit();
-// });
+//Fresh document ready handler for Raphael
+$(function(){
+	//open handler function 1
+	var paper = new Raphael(document.getElementById("mainSliderCTA"),960,400);
+	var bgCircle = paper.circle(100,100,100);
+	bgCircle.node.onmouseover = bgCircleMousedOver;
+	
+	bgCircle.attr({
+		gradient: '270-#F99E43-#F88614', 
+		stroke:'#47B8F1', 
+		'stroke-width': 2,
+		opacity: 0})
+		
+		function bgCircleMousedOver (refObj) {
+	  alert("Circle Moused Over" + refObj);
+	}	
+
+		
+
+});
+
