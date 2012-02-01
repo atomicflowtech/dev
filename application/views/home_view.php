@@ -1,8 +1,9 @@
 <section>
 	<div id="mainSlider" class="container_full" >
-		<div id="mainSliderCTA" class="container_16" ><!-- <a href="#" class="myButton">Get a Quote</a> -->
+		<!-- <div id="mainSliderCTA" class="container_16" > -->
+		<!-- <a href="#" class="myButton">Get a Quote</a> -->
 			
-		</div>
+		<!-- </div> -->
 		<div id="mainSliderContentContainer" class="container_16">
 			<img  src="<?php echo base_url();?>images/slides/flowfact1.png"/>
 			<img  src="<?php echo base_url();?>images/slides/flowfact2.png"/>
