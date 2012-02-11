@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/AtomicFlowDev/';
+$config['base_url']	= 'http://dev.local/';
 
 /*
 |--------------------------------------------------------------------------

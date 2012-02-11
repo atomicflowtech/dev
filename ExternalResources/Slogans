@@ -1,0 +1,27 @@
+<p>
+		We create interactive web experiences that sell your idea even better than you can, and might even look better doing it. Always online, Always Ready.
+	</p>
+
+<p>
+	We have creative designers and intelligent coders that make Picasso and Einstein look like under-achievers. If you can think it, we can build it.
+</p>
+<p>
+	We staff a brilliant team of highly motivated digital marketeers who eat Twitter, breathe Facebook, and Optimize Websites like it's their job.
+</p>
+
+purple
+background-color:#C349bc;
+
+
+
+.frontBox p {
+color: #333;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+font-family: 'PTSansNarrowRegular';
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 1px;
+opacity: 0.9;
+}

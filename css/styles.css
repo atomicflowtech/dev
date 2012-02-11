@@ -1,6 +1,7 @@
 body {
 font-size:13px;
-background: #000 url("../images/backgrounds/orangeCanvas.png");
+/*background: #000 url("/images/backgrounds/orangeCanvas.png");*/
+background-color:#fff;
 }
 
 /* ********************************************
@@ -12,7 +13,7 @@ background: #000 url("../images/backgrounds/orangeCanvas.png");
 #topLinksFullContainer {
 position:relative;
 height:30px;
-background-color:#000;
+background: #000 url("/images/backgrounds/typogBG.png");
 z-index:1;
 }
 
@@ -78,24 +79,24 @@ background:#FFF url("../images/backgrounds/struckaxiom2.png");
 #headerBar {
 width:100%;
 height:85px;
-border-bottom:1px #E5E5E5 solid;
+/*border-bottom:1px #E5E5E5 solid;*/
 position:relative;
-background:#FFF url("../images/backgrounds/headerBarContentBGDots.png");
+background:#FFF url("../images/backgrounds/blackPaper.png");
 z-index:2;
 }
 
 #headerBar h1 {
-width:346px;
-height:50px;
-margin-top:24px;
+width:389px;
+height:77px;
+margin-top:5px;
 color:#FFF;
 text-indent:-9999px;
-background-image:url("../images/logos/AtomicFlowWordmark.png");
+background-image:url("../images/logos/AFTDLogoAndWordmark.png");
 background-repeat:no-repeat;
 }
 
 #headerBarContent {
-background:#FFF;
+background-image:url("../images/backgrounds/blackPaper.png");
 }
 
 #mainNavigation {
@@ -119,8 +120,8 @@ margin-left:10px;
 #mainNavigationList li {
 float:left;
 width:80px;
-height:73px;
-padding-top:12px;
+height:79px;
+padding-top:5px;
 font-size:20px;
 text-transform:uppercase;
 font-family:"LeagueGothicRegular", sans-serif;
@@ -129,12 +130,12 @@ line-height:80px;
 
 #mainNavigationList li:hover {
 border-bottom:10px #20B8F1 solid;
-background:#000;
+background:url("../images/backgrounds/typogBG.png");
 }
 
 body#home li#homeLink,body#about li#aboutLink,body#skills li#skillsLink,body#work li#workLink,body#contact li#contactLink {
 border-bottom:10px #F9810B solid;
-background:#000;
+background:url("../images/backgrounds/typogBG.png");
 }
 
 div#mainSlider {
@@ -187,14 +188,13 @@ line-height:50px;
    ================================================== */
 #frontBoxesBackBar {
 height:70px;
-background-color:#000;
+background: url('/images/backgrounds/blackPaper.png');
 }
 
 
 #frontBoxes{
 	margin: -71px auto 0;
 	width:963px;
-	height:550px;
 	padding-left:0;
 	padding-right:0;
 	overflow: hidden;
@@ -205,7 +205,7 @@ background-color:#000;
 .frontBoxHeader{
 	width:320px;
 	height:40px;
-	background: #000000;
+	background: url('/images/backgrounds/blackPaper.png');
 }
 .frontBox {
 	float:left;
@@ -217,9 +217,10 @@ border-style: solid;
 border-top-width: 1px;
 border-left-width:1px;
 width:320px;
-	height:300px;
+	
 	padding:0;
 	cursor: pointer;
+	text-align:center;
 }
 
 .frontBox:last-child {
@@ -235,13 +236,12 @@ font-family: "LeagueGothicRegular", sans-serif;
 font-size: 40px;
 margin: 0 auto;
 margin-left: 10px;
-text-align: left;
 line-height: 48px;
 padding-top: 7px;
 }
 
 .frontBoxSubHeader{
-	background-color:#000;
+	background: url('/images/backgrounds/blackPaper.png');
 	letter-spacing:5px;
 	height:20px;
 	padding-top:8px;
@@ -291,8 +291,16 @@ letter-spacing:.1em;
 font-family:'QuickSandBook', sans-serif;
 }
 
+#mainContentContainerFull{
+height:615px;
+background:url('/images/backgrounds/brickTrans.png');
+}
 #mainContentContainer {
-height:400px;
+background: url('/images/backgrounds/stuccoTrans.png');
+height:615px;
+-webkit-box-shadow: 0px 5px 9px rgba(50, 50, 50, 0.83);
+-moz-box-shadow:    0px 5px 9px rgba(50, 50, 50, 0.83);
+box-shadow:         0px 5px 9px rgba(50, 50, 50, 0.83);
 }
 
 footer {
@@ -385,12 +393,12 @@ overflow:hidden;
 
 #mainNavigationList li#skillsLink,#mainNavigationList li a {
 margin-left:17px;
-color:#333;
+color:#FFF;
 text-decoration:none;
 }
 
 #mainNavigationList li:hover a,body#home li#homeLink a,body#about li#aboutLink a,body#skills li#skillsLink a,body#work li#workLink a,body#contact li#contactLink a {
-color:#FFF;
+color:#000;
 }
 
 #mainSliderSubCaption a,.blue1 {
@@ -440,3 +448,22 @@ color:#1FB8F1;
 	position:relative;
 	top:1px;
 }
+
+#flowDefinitionContainer{
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+
+.featuretteHeader{
+	background-color: #000;
+	color:#FFF;
+	height: 26px;	
+	width:132px;
+	line-height:26px;
+	padding-left:10px;
+	font-family: "League Gothic";
+	font-size:19px;
+	
+
+}
+
