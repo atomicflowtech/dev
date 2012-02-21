@@ -54,7 +54,7 @@
 -->
 <div id="mainContentContainerFull" class="container_full" >
 <div id="mainContentContainer" class="container_12">
-	<aside id="flowDefinitionContainer" class="grid_12">
+	<aside id="flowDefinitionContainer" class="grid_12 ">
 		 FLOW (n): THE MENTAL STATE OF OPERATION IN WHICH A PERSON IN AN ACTIVITY IS FULLY IMMERSED IN A FEELING OF ENERGIZED FOCUS, FULL INVOLVEMENT, AND SUCCESS IN THE PROCESS OF THE ACTIVITY.
 	</aside>
 
@@ -62,7 +62,7 @@
 
 		<article class="featurette">
 			<header class="featuretteHeader">LATEST PROJECT</header>
-			<img src="/images/featurettes/DevDashFeaturette.png" alt="DevDash Screen Shot"/>
+			<img class="featuretteImage"src="/images/featurettes/DevDashFeaturette.png" alt="DevDash Screen Shot"/>
 			<h5 class="featuretteTypeHeader">Application</h4>
 			<h4 class="featuretteTitle">DevDash</h4>
 			<p class="featuretteText">Our latest application sets sights at providing development teams with an intuitive interface for communication and project managment.</p>
@@ -72,14 +72,24 @@
 
 
 	<div id="column2" class="grid_4">
+			<article class="featurette">
 			<header class="featuretteHeader">OUR BLOG</header>
-			<img src="/images/featurettes/DevDashFeaturette.png" alt="DevDash Screen Shot"/>
-			<h5 class="featuretteTypeHeader">Application</h4>
-			<h4 class="featuretteTitle">DevDash</h4>
-			<p class="featuretteText">Our latest application sets sights at providing development teams with an intuitive interface for communication and project managment.</p>
+			<img class="featuretteImage"src="/images/featurettes/DevDashFeaturette.png" alt="DevDash Screen Shot"/>
+			<h5 class="featuretteTypeHeader">BLOG ENTRY</h4>
+			<h4 class="featuretteTitle">OUR NEW GIRLFRIEND, BACKBONE.JS</h4>
+			<p class="featuretteText">Last week we made the decision to dump our old lady CodeIgniter for the latest chica on the block, the JavaScript framework that’s got everyone raving, Backbone.JS. ...</p>
+		</article>
 	</div>
 	<div id="column3" class="grid_4">
+			<article class="halfFeaturette">
 			<header class="featuretteHeader">GET IN CONTACT</header>
+			<div class="featuretteInner">
+			    <p>Like what you see?</p>
+			</div>
+			
+
+			
+		</article>
 	</div>
 </div>
 </div>

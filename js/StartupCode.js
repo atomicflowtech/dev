@@ -23,27 +23,27 @@
     
     $(function() { //starts dom load function
     	
-    //     $('#boxWeb').hover(function() {
-    //         $(this).animate({
-    //             backgroundColor: "#20B8F1"
-    //         }, "slow");
-    //     }, function() {
-    //         $(this).stop().css('background-color', '#FFFFFF');
-    //     });
-    //     $('#boxTech').hover(function() {
-    //         $(this).animate({
-    //             backgroundColor: "#20B8F1"
-    //         }, "slow");
-    //     }, function() {
-    //         $(this).stop().css('background-color', '#FFFFFF');
-    //     });
-    //     $('#boxBusiness').hover(function() {
-    //         $(this).animate({
-    //             backgroundColor: "#20B8F1"
-    //         }, "slow");
-    //     }, function() {
-    //         $(this).stop().css('background-color', '#FFFFFF');
-    //     });
+        $('#boxWeb').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#FFFFFF');
+        });
+        $('#boxTech').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#FFFFFF');
+        });
+        $('#boxBusiness').hover(function() {
+            $(this).animate({
+                backgroundColor: "#20B8F1"
+            }, "slow");
+        }, function() {
+            $(this).stop().css('background-color', '#FFFFFF');
+        });
         
         //Make the boxes whole div act like links
 $('#boxWeb').click(function() {
@@ -57,8 +57,8 @@ window.location.href = $('#boxBusiness a').attr('href');
 });
         
         
-        $('#webSubHeader').airport([ 'The Digital DaVincis', 'The Design Einsteins', 'The Website Picassos' ]);
-        $('#techSubHeader').airport([ 'The Coding Whizkids', 'The Building Junkies', 'The Application Guys' ]);
+        $('#webSubHeader').airport([ 'The Digital DaVincis', 'The Design Einsteins', 'The Web Gurus' ]);
+        $('#techSubHeader').airport([ 'The Coding Whizkids', 'The Code Junkies', 'The App Experts' ]);
         $('#marketingSubHeader').airport([ 'The Social Engineers', 'The Media Architects', 'The Search Mechanics' ]);
     }); //ends dom load function
      

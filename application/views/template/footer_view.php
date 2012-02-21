@@ -27,21 +27,20 @@
 		</ul>
 	</div>
 	<script src="<?php echo base_url();?>js/jquery-1.6.4.min.js"></script>
-	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.easing.1.2.js"></script>
-	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.fx.js"></script>
-	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.js"></script>
-	<script src="<?php echo base_url();?>js/AnythingSlider/jquery.anythingslider.video.js"></script>
-	<script src="<?php echo base_url();?>js/AnythingSlider/swfobject.js"></script>
+
 	<script src="<?php echo base_url();?>js/orbit/jquery.orbit-1.2.3.min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.validate.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.airport.js"></script>
 	<script type="text/javascript">
 	    var currentPageName = "<?php echo $this->uri->segment(1);?>";
 	</script>
-	<script src="<?php echo base_url();?>js/topAreaSlider.js"></script>
 	<script src="<?php echo base_url();?>js/contactValidation.js"></script>
 	<script src="<?php echo base_url();?>js/jquery.color.js"></script>
+	<script type="text/javascript" src="/js/jquery.approach.min.js"></script>
 	<script src="<?php echo base_url();?>js/raphael/raphael-min.js"></script>
+	<script type="text/javascript" src="/js/cufon/cufon-yui.js"></script>
+	<script type="text/javascript" src="/fonts/cufon/QuicksandBookCufon_400.font.js"></script>
+	<script type="text/javascript" src="/fonts/cufon/LeagueGothicCufon_400.font.js"></script>
 	<script src="<?php echo base_url();?>js/StartupCode.js"></script>
 </footer>
 </body>
