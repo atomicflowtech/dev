@@ -39,8 +39,13 @@
 	<script type="text/javascript" src="/js/jquery.approach.min.js"></script>
 	<script src="<?php echo base_url();?>js/raphael/raphael-min.js"></script>
 	<script type="text/javascript" src="/js/cufon/cufon-yui.js"></script>
-	<script type="text/javascript" src="/fonts/cufon/QuicksandBookCufon_400.font.js"></script>
-	<script type="text/javascript" src="/fonts/cufon/LeagueGothicCufon_400.font.js"></script>
+	
+	<script type="text/javascript" src="/fonts/cufon/Quicksand_Book_400.font.js"></script>
+	<script type="text/javascript" src="/fonts/cufon/League_Gothic_400.font.js"></script>
+	<script type="text/javascript">
+			
+			
+		</script>
 	<script src="<?php echo base_url();?>js/StartupCode.js"></script>
 </footer>
 </body>

@@ -23,6 +23,9 @@
     
     $(function() { //starts dom load function
     	
+    	Cufon.replace('.featuretteHeader,.featuretteTitle', { fontFamily: 'League Gothic' });
+    	Cufon.replace('.featuretteTypeHeader', { fontFamily: 'Quicksand Book' });
+    	
         $('#boxWeb').hover(function() {
             $(this).animate({
                 backgroundColor: "#20B8F1"
@@ -57,8 +60,8 @@ window.location.href = $('#boxBusiness a').attr('href');
 });
         
         
-        $('#webSubHeader').airport([ 'The Digital DaVincis', 'The Design Einsteins', 'The Web Gurus' ]);
-        $('#techSubHeader').airport([ 'The Coding Whizkids', 'The Code Junkies', 'The App Experts' ]);
+        $('#webSubHeader').airport([ 'The Digital DaVincis', 'The Design Einsteins', 'The Web Dev Gurus' ]);
+        $('#techSubHeader').airport([ 'The Android Aces', 'The Code Junkies', 'The iPhone Pros' ]);
         $('#marketingSubHeader').airport([ 'The Social Engineers', 'The Media Architects', 'The Search Mechanics' ]);
     }); //ends dom load function
      
