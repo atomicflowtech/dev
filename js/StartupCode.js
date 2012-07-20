@@ -23,7 +23,7 @@
     
     $(function() { //starts dom load function
     	
-    	Cufon.replace('.featuretteHeader,.featuretteTitle', { fontFamily: 'League Gothic' });
+    	Cufon.replace('.featuretteHeader,.featuretteTitle, h3', { fontFamily: 'League Gothic' });
     	Cufon.replace('.featuretteTypeHeader', { fontFamily: 'Quicksand Book' });
     	
         $('#boxWeb').hover(function() {
